@@ -1,3 +1,10 @@
 from django.contrib import admin
+from .models import (
+    ClassificationResult,
+    ProductAttribute,
+    AlternativeCategory
+)
 
-# Register your models here.
+admin.site.register(ClassificationResult)
+admin.site.register(ProductAttribute)
+admin.site.register(AlternativeCategory)
