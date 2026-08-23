@@ -11,6 +11,9 @@ staticfiles/
 logs/
 *.log
 
+*.xlsx
+*.xls
+
 .idea/
 .vscode/
 
