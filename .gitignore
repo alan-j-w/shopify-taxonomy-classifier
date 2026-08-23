@@ -1,4 +1,4 @@
-﻿venv/
+venv/
 __pycache__/
 *.pyc
 
@@ -8,8 +8,10 @@ db.sqlite3
 
 media/
 staticfiles/
+logs/
+*.log
 
 .idea/
 .vscode/
 
-.DS_Store   
+.DS_Store
