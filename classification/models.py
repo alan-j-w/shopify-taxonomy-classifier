@@ -1,6 +1,52 @@
 from django.db import models
 from products.models import Product
-from taxonomy.models import Category
+from taxonomy.models import Category, CategoryAttribute
+
+
+class Batch(models.Model):
+
+    STATUS_CHOICES = [
+        ("PENDING", "Pending"),
+        ("PROCESSING", "Processing"),
+        ("COMPLETED", "Completed"),
+        ("FAILED", "Failed"),
+    ]
+
+    name = models.CharField(
+        max_length=255,
+        blank=True,
+        null=True
+    )
+
+    total_products = models.IntegerField(
+        default=0
+    )
+
+    completed_products = models.IntegerField(
+        default=0
+    )
+
+    failed_products = models.IntegerField(
+        default=0
+    )
+
+    pending_products = models.IntegerField(
+        default=0
+    )
+
+    status = models.CharField(
+        max_length=20,
+        choices=STATUS_CHOICES,
+        default="PENDING",
+        db_index=True
+    )
+
+    created_at = models.DateTimeField(
+        auto_now_add=True
+    )
+
+    def __str__(self):
+        return self.name or f"Batch #{self.id}"
 
 
 class ClassificationResult(models.Model):
@@ -17,11 +63,13 @@ class ClassificationResult(models.Model):
     )
 
     confidence_score = models.FloatField(
-        default=0
+        default=0,
+        db_index=True
     )
 
     review_required = models.BooleanField(
-        default=False
+        default=False,
+        db_index=True
     )
 
     classified_at = models.DateTimeField(
@@ -31,7 +79,6 @@ class ClassificationResult(models.Model):
     def __str__(self):
         return f"{self.product.title}"
 
-from taxonomy.models import CategoryAttribute
 
 class ProductAttribute(models.Model):
 
@@ -51,7 +98,6 @@ class ProductAttribute(models.Model):
 
     def __str__(self):
         return f"{self.attribute.name}: {self.value}"
-
 
 
 class AlternativeCategory(models.Model):

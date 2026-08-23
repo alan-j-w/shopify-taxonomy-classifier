@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid px-4 mt-4" style="max-width: 800px;">
+    
+    {% if messages %}
+        {% for message in messages %}
+            <div class="alert alert-{{ message.tags|default:'info' }} alert-dismissible fade show border-0 rounded-1 small" role="alert">
+                {{ message }}
+                <button type="button" class="btn-close btn-sm" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <div class="d-flex justify-content-between align-items-center mb-3 border-bottom pb-2">
+        <h4 class="mb-0 fw-semibold">Upload Catalog</h4>
+    </div>
+
+    <div class="card border rounded-0 mb-4">
+        <div class="card-body p-4">
+            <p class="text-muted small mb-4">Import products in bulk via CSV to start a new classification batch.</p>
+
+            <form method="post" enctype="multipart/form-data" class="bg-light p-3 rounded-1 border mb-4">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label for="csvFile" class="form-label fw-semibold small">Select CSV File</label>
+                    <input class="form-control form-control-sm" type="file" id="csvFile" name="file" accept=".csv" required>
+                    <div class="form-text mt-2 small">
+                        <strong>Expected format:</strong> CSV with columns in order: <code>Title</code>, <code>Description</code>, <code>Product Number (Optional)</code>. The first row (headers) is skipped.
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn btn-sm btn-primary px-4">
+                    Upload & Start Batch
+                </button>
+            </form>
+            
+            <div class="text-start bg-secondary bg-opacity-10 p-3 rounded-1 small text-dark border">
+                <p class="mb-1 fw-semibold">Workflow</p>
+                <ol class="mb-0 ps-3 text-muted">
+                    <li>The system creates local product records.</li>
+                    <li>A background Batch is started.</li>
+                    <li>Celery processes each product asynchronously against the Gemini AI engine.</li>
+                    <li>You can monitor progress on the <a href="{% url 'batch_monitoring' %}">Batches</a> page.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

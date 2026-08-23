@@ -2,4 +2,8 @@ from django.apps import AppConfig
 
 
 class ClassificationConfig(AppConfig):
-    name = 'classification'
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "classification"
+
+    def ready(self):
+        import classification.tasks  # noqa: F401

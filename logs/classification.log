@@ -1,0 +1,1323 @@
+[2026-08-22 11:41:19,334] INFO [classification:30] Loading full Shopify taxonomy into cache (14,606 categories)...
+[2026-08-22 11:41:19,576] INFO [classification:50] Phase 9 verification log entry test.
+[2026-08-22 15:06:54,605] INFO [classification:39] Starting batch #2 ('None') with 18981 items.
+[2026-08-22 15:06:55,899] INFO [classification:51] Processing Product #1: 'Empress Bonded Leather Sofa by Modway'
+[2026-08-22 15:07:16,483] INFO [classification:30] Loading full Shopify taxonomy into cache (14,606 categories)...
+[2026-08-22 15:07:16,660] INFO [classification:166] Successfully classified product #1 -> 'Furniture > Sofas' (Confidence: 0.99)
+[2026-08-22 15:07:16,684] INFO [classification:51] Processing Product #3: 'Empress Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:07:43,232] INFO [classification:166] Successfully classified product #3 -> 'Furniture > Chairs > Armchairs, Recliners & Sleeper Chairs' (Confidence: 0.99)
+[2026-08-22 15:07:43,264] INFO [classification:51] Processing Product #7: 'Lava Pencil Holder by Modway'
+[2026-08-22 15:08:11,009] INFO [classification:166] Successfully classified product #7 -> 'Animals & Pet Supplies > Pet Supplies > Pet Waste Bag Dispensers & Holders' (Confidence: 0.95)
+[2026-08-22 15:08:11,045] INFO [classification:51] Processing Product #8: 'Lava Pencil Holder by Modway'
+[2026-08-22 15:08:40,029] INFO [classification:166] Successfully classified product #8 -> 'Animals & Pet Supplies > Pet Supplies > Pet Waste Bag Dispensers & Holders' (Confidence: 0.95)
+[2026-08-22 15:08:40,057] INFO [classification:51] Processing Product #9: 'Lava Pencil Holder by Modway'
+[2026-08-22 15:09:03,867] INFO [classification:166] Successfully classified product #9 -> 'Animals & Pet Supplies > Pet Supplies > Pet Waste Bag Dispensers & Holders' (Confidence: 0.95)
+[2026-08-22 15:09:03,898] INFO [classification:51] Processing Product #10: 'Garner Bar Stool by Modway'
+[2026-08-22 15:09:26,642] INFO [classification:166] Successfully classified product #10 -> 'Furniture > Chairs > Table & Bar Stools > Bar Stools' (Confidence: 0.99)
+[2026-08-22 15:09:26,683] INFO [classification:51] Processing Product #11: 'Dive Bar Stool by Modway'
+[2026-08-22 15:09:47,426] INFO [classification:166] Successfully classified product #11 -> 'Furniture > Chairs > Table & Bar Stools > Bar Stools' (Confidence: 0.99)
+[2026-08-22 15:09:47,460] INFO [classification:51] Processing Product #12: 'Persist Bar Stool by Modway'
+[2026-08-22 15:10:10,398] INFO [classification:166] Successfully classified product #12 -> 'Furniture > Chairs > Table & Bar Stools > Bar Stools' (Confidence: 0.99)
+[2026-08-22 15:10:10,422] INFO [classification:51] Processing Product #13: 'Volt Storage Upholstered Vinyl Ottoman by Modway'
+[2026-08-22 15:10:40,621] INFO [classification:166] Successfully classified product #13 -> 'Furniture > Ottomans' (Confidence: 0.99)
+[2026-08-22 15:10:40,648] INFO [classification:51] Processing Product #14: 'Path Dining Wood Side Chair by Modway'
+[2026-08-22 15:11:05,286] INFO [classification:166] Successfully classified product #14 -> 'Furniture > Chairs > Kitchen & Dining Room Chairs' (Confidence: 0.99)
+[2026-08-22 15:11:05,311] INFO [classification:51] Processing Product #15: 'Track Round Dining Table by Modway'
+[2026-08-22 15:11:18,696] INFO [classification:166] Successfully classified product #15 -> 'Furniture > Tables > Kitchen & Dining Room Tables' (Confidence: 0.85)
+[2026-08-22 15:11:18,711] INFO [classification:51] Processing Product #16: 'Track Round Dining Table by Modway'
+[2026-08-22 15:11:24,709] INFO [classification:166] Successfully classified product #16 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:11:24,740] INFO [classification:51] Processing Product #17: 'Finesse Highback Office Chair by Modway'
+[2026-08-22 15:11:31,014] INFO [classification:166] Successfully classified product #17 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:11:31,053] INFO [classification:51] Processing Product #18: 'Entreat Dining Side Chair by Modway'
+[2026-08-22 15:11:37,176] INFO [classification:166] Successfully classified product #18 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:11:37,215] INFO [classification:51] Processing Product #19: 'Amish Wood Bar Stool by Modway'
+[2026-08-22 15:11:43,670] INFO [classification:166] Successfully classified product #19 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:11:43,696] INFO [classification:51] Processing Product #20: 'Stalwart Dining Side Chair by Modway'
+[2026-08-22 15:11:50,559] INFO [classification:166] Successfully classified product #20 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:11:50,593] INFO [classification:51] Processing Product #21: 'Stalwart Dining Side Chair by Modway'
+[2026-08-22 15:11:56,789] INFO [classification:166] Successfully classified product #21 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:11:56,823] INFO [classification:51] Processing Product #22: 'Fuse Dining Side Chair by Modway'
+[2026-08-22 15:12:03,323] INFO [classification:166] Successfully classified product #22 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:03,359] INFO [classification:51] Processing Product #23: 'Lippa 28" Round Wood Dining Table by Modway'
+[2026-08-22 15:12:08,064] INFO [classification:166] Successfully classified product #23 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:08,099] INFO [classification:51] Processing Product #24: 'Lippa 36" Round Wood Dining Table by Modway'
+[2026-08-22 15:12:12,870] INFO [classification:166] Successfully classified product #24 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:12,897] INFO [classification:51] Processing Product #25: 'Lippa 40" Round Wood Dining Table by Modway'
+[2026-08-22 15:12:16,866] INFO [classification:166] Successfully classified product #25 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:16,903] INFO [classification:51] Processing Product #26: 'Lippa 48" Round Wood Dining Table by Modway'
+[2026-08-22 15:12:21,254] INFO [classification:166] Successfully classified product #26 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:21,279] INFO [classification:51] Processing Product #27: 'Lippa 54" Round Wood Dining Table by Modway'
+[2026-08-22 15:12:25,726] INFO [classification:166] Successfully classified product #27 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:25,750] INFO [classification:51] Processing Product #28: 'Lippa 60" Round Wood Dining Table by Modway'
+[2026-08-22 15:12:30,122] INFO [classification:166] Successfully classified product #28 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:30,144] INFO [classification:51] Processing Product #29: 'Lippa 60" Oval Wood Dining Table by Modway'
+[2026-08-22 15:12:34,691] INFO [classification:166] Successfully classified product #29 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:34,731] INFO [classification:51] Processing Product #30: 'Lippa 24" Square Wood Dining Table by Modway'
+[2026-08-22 15:12:39,260] INFO [classification:166] Successfully classified product #30 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:39,292] INFO [classification:51] Processing Product #31: 'Lippa 28" Square Wood Dining Table by Modway'
+[2026-08-22 15:12:43,821] INFO [classification:166] Successfully classified product #31 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:43,857] INFO [classification:51] Processing Product #32: 'Lippa 36" Square Wood Dining Table by Modway'
+[2026-08-22 15:12:48,384] INFO [classification:166] Successfully classified product #32 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:48,410] INFO [classification:51] Processing Product #33: 'Lippa 48" Square Wood Dining Table by Modway'
+[2026-08-22 15:12:52,744] INFO [classification:166] Successfully classified product #33 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:52,781] INFO [classification:51] Processing Product #34: 'Lippa 28" Round Faux Marble Dining Table by Modway'
+[2026-08-22 15:12:57,863] INFO [classification:166] Successfully classified product #34 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:12:57,886] INFO [classification:51] Processing Product #35: 'Lippa 36" Round Faux Marble Dining Table by Modway'
+[2026-08-22 15:13:02,852] INFO [classification:166] Successfully classified product #35 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:02,870] INFO [classification:51] Processing Product #36: 'Lippa 40" Round Faux Marble Dining Table by Modway'
+[2026-08-22 15:13:07,777] INFO [classification:166] Successfully classified product #36 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:07,819] INFO [classification:51] Processing Product #37: 'Lippa 48" Round Faux Marble Dining Table by Modway'
+[2026-08-22 15:13:12,732] INFO [classification:166] Successfully classified product #37 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:12,766] INFO [classification:51] Processing Product #38: 'Lippa 54" Round Faux Marble Dining Table by Modway'
+[2026-08-22 15:13:17,240] INFO [classification:166] Successfully classified product #38 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:17,268] INFO [classification:51] Processing Product #39: 'Lippa 60" Round Faux Marble Dining Table by Modway'
+[2026-08-22 15:13:21,911] INFO [classification:166] Successfully classified product #39 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:21,932] INFO [classification:51] Processing Product #40: 'Lippa 54" Oval Faux Marble Dining Table by Modway'
+[2026-08-22 15:13:26,272] INFO [classification:166] Successfully classified product #40 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:26,308] INFO [classification:51] Processing Product #41: 'Lippa 60" Oval Faux Marble Dining Table by Modway'
+[2026-08-22 15:13:30,899] INFO [classification:166] Successfully classified product #41 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:30,924] INFO [classification:51] Processing Product #42: 'Lippa 36" Round Wood Dining Table by Modway'
+[2026-08-22 15:13:37,086] INFO [classification:166] Successfully classified product #42 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:37,111] INFO [classification:51] Processing Product #43: 'Lippa 60" Oval Wood Dining Table by Modway'
+[2026-08-22 15:13:42,888] INFO [classification:166] Successfully classified product #43 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:13:42,918] INFO [classification:51] Processing Product #44: 'Lippa 42" Oval Wood Coffee Table by Modway'
+[2026-08-22 15:13:47,294] INFO [classification:166] Successfully classified product #44 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:13:47,321] INFO [classification:51] Processing Product #45: 'Marina Outdoor Patio Teak Armchair by Modway'
+[2026-08-22 15:13:54,846] INFO [classification:166] Successfully classified product #45 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:13:54,874] INFO [classification:51] Processing Product #46: 'Marina Outdoor Patio Teak Armchair by Modway'
+[2026-08-22 15:14:01,769] INFO [classification:166] Successfully classified product #46 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:01,796] INFO [classification:51] Processing Product #47: 'Marina Outdoor Patio Teak Armchair by Modway'
+[2026-08-22 15:14:08,872] INFO [classification:166] Successfully classified product #47 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:08,902] INFO [classification:51] Processing Product #48: 'Marina Outdoor Patio Teak Loveseat by Modway'
+[2026-08-22 15:14:15,901] INFO [classification:166] Successfully classified product #48 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:15,933] INFO [classification:51] Processing Product #49: 'Marina Outdoor Patio Teak Loveseat by Modway'
+[2026-08-22 15:14:22,232] INFO [classification:166] Successfully classified product #49 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:22,259] INFO [classification:51] Processing Product #50: 'Marina Outdoor Patio Teak Loveseat by Modway'
+[2026-08-22 15:14:28,719] INFO [classification:166] Successfully classified product #50 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:28,751] INFO [classification:51] Processing Product #51: 'Marina Outdoor Patio Teak Corner Sofa by Modway'
+[2026-08-22 15:14:36,258] INFO [classification:166] Successfully classified product #51 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:36,291] INFO [classification:51] Processing Product #52: 'Marina Outdoor Patio Teak Corner Sofa by Modway'
+[2026-08-22 15:14:42,476] INFO [classification:166] Successfully classified product #52 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:42,508] INFO [classification:51] Processing Product #53: 'Marina Outdoor Patio Teak Corner Sofa by Modway'
+[2026-08-22 15:14:48,885] INFO [classification:166] Successfully classified product #53 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:48,920] INFO [classification:51] Processing Product #54: 'Marina Outdoor Patio Teak Left-Facing Sofa by Modway'
+[2026-08-22 15:14:56,486] INFO [classification:166] Successfully classified product #54 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:14:56,515] INFO [classification:51] Processing Product #55: 'Marina Outdoor Patio Teak Left-Facing Sofa by Modway'
+[2026-08-22 15:15:03,015] INFO [classification:166] Successfully classified product #55 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:03,039] INFO [classification:51] Processing Product #56: 'Marina Outdoor Patio Teak Left-Facing Sofa by Modway'
+[2026-08-22 15:15:15,365] INFO [classification:166] Successfully classified product #56 -> 'Furniture > Outdoor Furniture' (Confidence: 0.80)
+[2026-08-22 15:15:15,392] INFO [classification:51] Processing Product #57: 'Marina Outdoor Patio Teak Right-Facing Sofa by Modway'
+[2026-08-22 15:15:22,933] INFO [classification:166] Successfully classified product #57 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:22,954] INFO [classification:51] Processing Product #58: 'Marina Outdoor Patio Teak Right-Facing Sofa by Modway'
+[2026-08-22 15:15:29,116] INFO [classification:166] Successfully classified product #58 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:29,140] INFO [classification:51] Processing Product #59: 'Marina Outdoor Patio Teak Right-Facing Sofa by Modway'
+[2026-08-22 15:15:34,033] INFO [classification:166] Successfully classified product #59 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:34,045] INFO [classification:51] Processing Product #60: 'Marina Armless Outdoor Patio Teak Sofa by Modway'
+[2026-08-22 15:15:39,425] INFO [classification:166] Successfully classified product #60 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:39,444] INFO [classification:51] Processing Product #61: 'Marina Armless Outdoor Patio Teak Sofa by Modway'
+[2026-08-22 15:15:43,928] INFO [classification:166] Successfully classified product #61 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:43,939] INFO [classification:51] Processing Product #62: 'Marina Armless Outdoor Patio Teak Sofa by Modway'
+[2026-08-22 15:15:48,275] INFO [classification:166] Successfully classified product #62 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:48,285] INFO [classification:51] Processing Product #63: 'Marina Outdoor Patio Teak Single Chaise by Modway'
+[2026-08-22 15:15:52,985] INFO [classification:166] Successfully classified product #63 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:52,999] INFO [classification:51] Processing Product #64: 'Marina Outdoor Patio Teak Single Chaise by Modway'
+[2026-08-22 15:15:57,462] INFO [classification:166] Successfully classified product #64 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:15:57,475] INFO [classification:51] Processing Product #65: 'Marina Outdoor Patio Teak Single Chaise by Modway'
+[2026-08-22 15:16:01,775] INFO [classification:166] Successfully classified product #65 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:01,786] INFO [classification:51] Processing Product #66: 'Marina Outdoor Patio Teak Ottoman by Modway'
+[2026-08-22 15:16:06,785] INFO [classification:166] Successfully classified product #66 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:06,794] INFO [classification:51] Processing Product #67: 'Marina Outdoor Patio Teak Ottoman by Modway'
+[2026-08-22 15:16:11,300] INFO [classification:166] Successfully classified product #67 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:11,309] INFO [classification:51] Processing Product #68: 'Marina Outdoor Patio Teak Ottoman by Modway'
+[2026-08-22 15:16:17,271] INFO [classification:166] Successfully classified product #68 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:17,281] INFO [classification:51] Processing Product #69: 'Marina Outdoor Patio Teak Round Coffee Table by Modway'
+[2026-08-22 15:16:21,717] INFO [classification:166] Successfully classified product #69 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:21,725] INFO [classification:51] Processing Product #70: 'Marina Outdoor Patio Teak Rectangle Coffee Table by Modway'
+[2026-08-22 15:16:27,527] INFO [classification:166] Successfully classified product #70 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:27,546] INFO [classification:51] Processing Product #71: 'Marina Outdoor Patio Teak Side Table by Modway'
+[2026-08-22 15:16:34,195] INFO [classification:166] Successfully classified product #71 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:34,223] INFO [classification:51] Processing Product #72: 'Peer Outdoor Patio Chaise Set of 2 by Modway'
+[2026-08-22 15:16:39,035] INFO [classification:166] Successfully classified product #72 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:39,051] INFO [classification:51] Processing Product #73: 'Reverb Premium Office Chair by Modway'
+[2026-08-22 15:16:43,828] INFO [classification:166] Successfully classified product #73 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:16:43,839] INFO [classification:51] Processing Product #74: 'Engage Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:16:49,540] INFO [classification:166] Successfully classified product #74 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:16:49,553] INFO [classification:51] Processing Product #75: 'Engage Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:16:55,170] INFO [classification:166] Successfully classified product #75 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:16:55,195] INFO [classification:51] Processing Product #76: 'Engage Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:17:04,246] INFO [classification:166] Successfully classified product #76 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:04,284] INFO [classification:51] Processing Product #77: 'Engage Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:17:13,116] INFO [classification:166] Successfully classified product #77 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:13,128] INFO [classification:51] Processing Product #78: 'Engage Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:17:17,720] INFO [classification:166] Successfully classified product #78 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:17,729] INFO [classification:51] Processing Product #79: 'Engage Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:17:22,598] INFO [classification:166] Successfully classified product #79 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:22,612] INFO [classification:51] Processing Product #80: 'Engage Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:17:27,273] INFO [classification:166] Successfully classified product #80 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:27,282] INFO [classification:51] Processing Product #81: 'Engage Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:17:32,169] INFO [classification:166] Successfully classified product #81 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:32,179] INFO [classification:51] Processing Product #82: 'Engage Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:17:37,109] INFO [classification:166] Successfully classified product #82 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:37,123] INFO [classification:51] Processing Product #83: 'Engage Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:17:41,523] INFO [classification:166] Successfully classified product #83 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:41,535] INFO [classification:51] Processing Product #84: 'Engage Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:17:46,163] INFO [classification:166] Successfully classified product #84 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:46,176] INFO [classification:51] Processing Product #85: 'Engage Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:17:51,312] INFO [classification:166] Successfully classified product #85 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:51,323] INFO [classification:51] Processing Product #86: 'Engage Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:17:55,956] INFO [classification:166] Successfully classified product #86 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:17:55,969] INFO [classification:51] Processing Product #87: 'Procure Wood Bar Stool by Modway'
+[2026-08-22 15:18:00,204] INFO [classification:166] Successfully classified product #87 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:00,215] INFO [classification:51] Processing Product #88: 'Casper Dining Armchair by Modway'
+[2026-08-22 15:18:04,331] INFO [classification:166] Successfully classified product #88 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:04,340] INFO [classification:51] Processing Product #89: 'Casper Dining Armchair by Modway'
+[2026-08-22 15:18:08,678] INFO [classification:166] Successfully classified product #89 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:08,693] INFO [classification:51] Processing Product #90: 'Casper Dining Armchair by Modway'
+[2026-08-22 15:18:12,948] INFO [classification:166] Successfully classified product #90 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:12,962] INFO [classification:51] Processing Product #91: 'Casper Dining Armchair by Modway'
+[2026-08-22 15:18:17,459] INFO [classification:166] Successfully classified product #91 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:17,469] INFO [classification:51] Processing Product #92: 'Casper Dining Armchair by Modway'
+[2026-08-22 15:18:21,806] INFO [classification:166] Successfully classified product #92 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:21,819] INFO [classification:51] Processing Product #93: 'Casper Dining Side Chair by Modway'
+[2026-08-22 15:18:26,140] INFO [classification:166] Successfully classified product #93 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:26,150] INFO [classification:51] Processing Product #94: 'Casper Dining Side Chair by Modway'
+[2026-08-22 15:18:30,379] INFO [classification:166] Successfully classified product #94 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:30,401] INFO [classification:51] Processing Product #95: 'Casper Dining Side Chair by Modway'
+[2026-08-22 15:18:34,868] INFO [classification:166] Successfully classified product #95 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:34,876] INFO [classification:51] Processing Product #96: 'Casper Dining Side Chair by Modway'
+[2026-08-22 15:18:39,148] INFO [classification:166] Successfully classified product #96 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:39,162] INFO [classification:51] Processing Product #97: 'Eileen Gray Metal Side Table by Modway'
+[2026-08-22 15:18:42,813] INFO [classification:166] Successfully classified product #97 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:18:42,823] INFO [classification:51] Processing Product #98: 'Eileen Gray Metal Side Table by Modway'
+[2026-08-22 15:18:46,588] INFO [classification:166] Successfully classified product #98 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:18:46,603] INFO [classification:51] Processing Product #99: 'Casper Bar Stool Set of 2 by Modway'
+[2026-08-22 15:18:50,983] INFO [classification:166] Successfully classified product #99 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:18:50,997] INFO [classification:51] Processing Product #100: 'Empress Upholstered Fabric Armchair Set of 2 by Modway'
+[2026-08-22 15:18:55,503] INFO [classification:166] Successfully classified product #100 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:18:55,518] INFO [classification:51] Processing Product #101: 'Empress Upholstered Fabric Armchair Set of 2 by Modway'
+[2026-08-22 15:18:59,997] INFO [classification:166] Successfully classified product #101 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:19:00,008] INFO [classification:51] Processing Product #102: 'Engage Wood Armchair Set of 2 by Modway'
+[2026-08-22 15:19:04,896] INFO [classification:166] Successfully classified product #102 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:19:04,907] INFO [classification:51] Processing Product #103: 'Engage Wood Armchair Set of 2 by Modway'
+[2026-08-22 15:19:11,692] INFO [classification:166] Successfully classified product #103 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:19:11,721] INFO [classification:51] Processing Product #104: 'Engage Wood Armchair Set of 2 by Modway'
+[2026-08-22 15:19:18,310] INFO [classification:166] Successfully classified product #104 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:19:18,334] INFO [classification:51] Processing Product #105: 'Panel Office Desk by Modway'
+[2026-08-22 15:19:25,548] INFO [classification:166] Successfully classified product #105 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:19:25,576] INFO [classification:51] Processing Product #106: 'Expound Office Desk by Modway'
+[2026-08-22 15:19:31,496] INFO [classification:166] Successfully classified product #106 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:19:31,519] INFO [classification:51] Processing Product #107: 'Bin Office Desk by Modway'
+[2026-08-22 15:19:37,542] INFO [classification:166] Successfully classified product #107 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:19:37,562] INFO [classification:51] Processing Product #108: 'Bin Office Desk by Modway'
+[2026-08-22 15:19:43,575] INFO [classification:166] Successfully classified product #108 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:19:43,600] INFO [classification:51] Processing Product #109: 'Bin Office Desk by Modway'
+[2026-08-22 15:19:48,014] INFO [classification:166] Successfully classified product #109 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:19:48,024] INFO [classification:51] Processing Product #110: 'Surplus Office Desk by Modway'
+[2026-08-22 15:19:53,065] INFO [classification:166] Successfully classified product #110 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:19:53,089] INFO [classification:51] Processing Product #111: 'Engage Armchair and Sofa Set of 2 by Modway'
+[2026-08-22 15:19:57,521] INFO [classification:166] Successfully classified product #111 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:19:57,533] INFO [classification:51] Processing Product #112: 'Engage Armchair and Sofa Set of 2 by Modway'
+[2026-08-22 15:20:01,990] INFO [classification:166] Successfully classified product #112 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:02,002] INFO [classification:51] Processing Product #113: 'Engage Armchair and Sofa Set of 2 by Modway'
+[2026-08-22 15:20:06,311] INFO [classification:166] Successfully classified product #113 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:06,319] INFO [classification:51] Processing Product #114: 'Engage Armchair and Sofa Set of 2 by Modway'
+[2026-08-22 15:20:10,919] INFO [classification:166] Successfully classified product #114 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:10,931] INFO [classification:51] Processing Product #115: 'Engage Armchairs and Sofa Set of 3 by Modway'
+[2026-08-22 15:20:15,647] INFO [classification:166] Successfully classified product #115 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:15,691] INFO [classification:51] Processing Product #116: 'Engage Armchairs and Sofa Set of 3 by Modway'
+[2026-08-22 15:20:21,083] INFO [classification:166] Successfully classified product #116 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:21,102] INFO [classification:51] Processing Product #117: 'Engage Armchairs and Sofa Set of 3 by Modway'
+[2026-08-22 15:20:26,335] INFO [classification:166] Successfully classified product #117 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:26,347] INFO [classification:51] Processing Product #118: 'Engage Armchairs and Sofa Set of 3 by Modway'
+[2026-08-22 15:20:31,023] INFO [classification:166] Successfully classified product #118 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:31,042] INFO [classification:51] Processing Product #119: 'Engage Armchair and Loveseat Set of 2 by Modway'
+[2026-08-22 15:20:35,703] INFO [classification:166] Successfully classified product #119 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:35,718] INFO [classification:51] Processing Product #120: 'Engage Armchair and Loveseat Set of 2 by Modway'
+[2026-08-22 15:20:40,579] INFO [classification:166] Successfully classified product #120 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:40,591] INFO [classification:51] Processing Product #121: 'Engage Armchair and Loveseat Set of 2 by Modway'
+[2026-08-22 15:20:44,972] INFO [classification:166] Successfully classified product #121 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:44,981] INFO [classification:51] Processing Product #122: 'Engage Armchairs and Loveseat Set of 3 by Modway'
+[2026-08-22 15:20:49,250] INFO [classification:166] Successfully classified product #122 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:49,261] INFO [classification:51] Processing Product #123: 'Engage Armchairs and Loveseat Set of 3 by Modway'
+[2026-08-22 15:20:53,529] INFO [classification:166] Successfully classified product #123 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:53,538] INFO [classification:51] Processing Product #124: 'Engage Armchairs and Loveseat Set of 3 by Modway'
+[2026-08-22 15:20:57,927] INFO [classification:166] Successfully classified product #124 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:20:57,938] INFO [classification:51] Processing Product #125: 'Engage Loveseat and Sofa Set of 2 by Modway'
+[2026-08-22 15:21:02,384] INFO [classification:166] Successfully classified product #125 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:02,394] INFO [classification:51] Processing Product #126: 'Engage Loveseat and Sofa Set of 2 by Modway'
+[2026-08-22 15:21:06,920] INFO [classification:166] Successfully classified product #126 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:06,934] INFO [classification:51] Processing Product #127: 'Engage Loveseat and Sofa Set of 2 by Modway'
+[2026-08-22 15:21:11,230] INFO [classification:166] Successfully classified product #127 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:11,240] INFO [classification:51] Processing Product #128: 'Engage Loveseat and Sofa Set of 2 by Modway'
+[2026-08-22 15:21:15,671] INFO [classification:166] Successfully classified product #128 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:15,681] INFO [classification:51] Processing Product #129: 'Engage Sofa Loveseat and Armchair Set of 3 by Modway'
+[2026-08-22 15:21:20,033] INFO [classification:166] Successfully classified product #129 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:20,048] INFO [classification:51] Processing Product #130: 'Engage Sofa Loveseat and Armchair Set of 3 by Modway'
+[2026-08-22 15:21:24,418] INFO [classification:166] Successfully classified product #130 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:24,429] INFO [classification:51] Processing Product #131: 'Engage Sofa Loveseat and Armchair Set of 3 by Modway'
+[2026-08-22 15:21:28,781] INFO [classification:166] Successfully classified product #131 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:28,793] INFO [classification:51] Processing Product #132: 'Engage Sofa Loveseat and Armchair Set of 3 by Modway'
+[2026-08-22 15:21:33,350] INFO [classification:166] Successfully classified product #132 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:33,363] INFO [classification:51] Processing Product #133: 'Align Fabric Armchair by Modway'
+[2026-08-22 15:21:40,176] INFO [classification:166] Successfully classified product #133 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:40,192] INFO [classification:51] Processing Product #134: 'Align Upholstered Fabric Corner Sofa by Modway'
+[2026-08-22 15:21:45,705] INFO [classification:166] Successfully classified product #134 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:45,714] INFO [classification:51] Processing Product #135: 'Align Upholstered Fabric Corner Sofa by Modway'
+[2026-08-22 15:21:51,864] INFO [classification:166] Successfully classified product #135 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:21:51,879] INFO [classification:51] Processing Product #136: 'Path Dining Chair Set of 2 by Modway'
+[2026-08-22 15:21:56,184] INFO [classification:166] Successfully classified product #136 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:21:56,195] INFO [classification:51] Processing Product #137: 'Path Dining Chair Set of 4 by Modway'
+[2026-08-22 15:22:01,861] INFO [classification:166] Successfully classified product #137 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:01,884] INFO [classification:51] Processing Product #138: 'Stalwart Dining Side Chairs Set of 2 by Modway'
+[2026-08-22 15:22:07,880] INFO [classification:166] Successfully classified product #138 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:07,917] INFO [classification:51] Processing Product #139: 'Stalwart Dining Side Chairs Set of 2 by Modway'
+[2026-08-22 15:22:13,848] INFO [classification:166] Successfully classified product #139 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:13,869] INFO [classification:51] Processing Product #140: 'Stalwart Dining Side Chairs Set of 4 by Modway'
+[2026-08-22 15:22:19,549] INFO [classification:166] Successfully classified product #140 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:19,567] INFO [classification:51] Processing Product #141: 'Stalwart Dining Side Chairs Set of 4 by Modway'
+[2026-08-22 15:22:23,913] INFO [classification:166] Successfully classified product #141 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:23,923] INFO [classification:51] Processing Product #142: 'Silhouette Dining Side Chair by Modway'
+[2026-08-22 15:22:28,918] INFO [classification:166] Successfully classified product #142 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:28,931] INFO [classification:51] Processing Product #143: 'Silhouette Dining Side Chair by Modway'
+[2026-08-22 15:22:39,073] INFO [classification:166] Successfully classified product #143 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:39,102] INFO [classification:51] Processing Product #144: 'Silhouette Dining Side Chair by Modway'
+[2026-08-22 15:22:44,939] INFO [classification:166] Successfully classified product #144 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:44,948] INFO [classification:51] Processing Product #145: 'Silhouette Dining Side Chair by Modway'
+[2026-08-22 15:22:48,735] INFO [classification:166] Successfully classified product #145 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:48,745] INFO [classification:51] Processing Product #146: 'Button Dining Side Chair by Modway'
+[2026-08-22 15:22:53,422] INFO [classification:166] Successfully classified product #146 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:53,433] INFO [classification:51] Processing Product #147: 'Confer Dining Vinyl Side Chair by Modway'
+[2026-08-22 15:22:56,988] INFO [classification:166] Successfully classified product #147 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:22:56,998] INFO [classification:51] Processing Product #148: 'Parcel Dining Upholstered Fabric Side Chair by Modway'
+[2026-08-22 15:23:02,291] INFO [classification:166] Successfully classified product #148 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:23:02,309] INFO [classification:51] Processing Product #149: 'Parcel Dining Upholstered Fabric Side Chair by Modway'
+[2026-08-22 15:23:06,731] INFO [classification:166] Successfully classified product #149 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:23:06,743] INFO [classification:51] Processing Product #150: 'Parcel Dining Upholstered Fabric Side Chair by Modway'
+[2026-08-22 15:23:11,370] INFO [classification:166] Successfully classified product #150 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:23:11,383] INFO [classification:51] Processing Product #151: 'Parcel Dining Upholstered Fabric Side Chair by Modway'
+[2026-08-22 15:23:15,552] INFO [classification:166] Successfully classified product #151 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:23:15,565] INFO [classification:51] Processing Product #152: 'Royal Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:23:21,273] INFO [classification:166] Successfully classified product #152 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:23:21,292] INFO [classification:51] Processing Product #153: 'Divulge Armchair and Ottoman by Modway'
+[2026-08-22 15:23:25,243] INFO [classification:166] Successfully classified product #153 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:23:25,270] INFO [classification:51] Processing Product #154: 'Divulge Armchair and Ottoman by Modway'
+[2026-08-22 15:23:30,130] INFO [classification:166] Successfully classified product #154 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:23:30,141] INFO [classification:51] Processing Product #155: 'Earl Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:23:35,490] INFO [classification:166] Successfully classified product #155 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:23:35,504] INFO [classification:51] Processing Product #156: 'Empress 3 Piece Upholstered Fabric Sectional Sofa Set by Modway'
+[2026-08-22 15:23:39,626] INFO [classification:166] Successfully classified product #156 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:23:39,642] INFO [classification:51] Processing Product #157: 'Imperial Bonded Leather Sofa by Modway'
+[2026-08-22 15:23:43,837] INFO [classification:166] Successfully classified product #157 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:23:43,851] INFO [classification:51] Processing Product #158: 'Attainment Vinyl Drafting Chair by Modway'
+[2026-08-22 15:23:48,237] INFO [classification:166] Successfully classified product #158 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:23:48,248] INFO [classification:51] Processing Product #159: 'Attainment Vinyl Drafting Chair by Modway'
+[2026-08-22 15:23:52,678] INFO [classification:166] Successfully classified product #159 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:23:52,691] INFO [classification:51] Processing Product #160: 'Veer Drafting Chair by Modway'
+[2026-08-22 15:23:57,237] INFO [classification:166] Successfully classified product #160 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:23:57,255] INFO [classification:51] Processing Product #161: 'Veer Drafting Chair by Modway'
+[2026-08-22 15:24:01,788] INFO [classification:166] Successfully classified product #161 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:24:01,799] INFO [classification:51] Processing Product #162: 'Veer Drafting Chair by Modway'
+[2026-08-22 15:24:06,622] INFO [classification:166] Successfully classified product #162 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:24:06,632] INFO [classification:51] Processing Product #163: 'Veer Drafting Chair by Modway'
+[2026-08-22 15:24:11,204] INFO [classification:166] Successfully classified product #163 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:24:11,218] INFO [classification:51] Processing Product #164: 'Ebb Upholstered Vinyl Lounge Chair by Modway'
+[2026-08-22 15:24:15,688] INFO [classification:166] Successfully classified product #164 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:24:15,696] INFO [classification:51] Processing Product #165: 'Makeshift Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:24:20,708] INFO [classification:166] Successfully classified product #165 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:24:20,722] INFO [classification:51] Processing Product #166: 'Makeshift Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:24:25,677] INFO [classification:166] Successfully classified product #166 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:24:25,688] INFO [classification:51] Processing Product #167: 'Makeshift Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:24:30,746] INFO [classification:166] Successfully classified product #167 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:24:30,759] INFO [classification:51] Processing Product #168: 'Heed Upholstered Fabric by Modway'
+[2026-08-22 15:24:35,709] INFO [classification:166] Successfully classified product #168 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:24:35,720] INFO [classification:51] Processing Product #169: 'Entangled Dining Armchair by Modway'
+[2026-08-22 15:24:39,377] INFO [classification:166] Successfully classified product #169 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:24:39,386] INFO [classification:51] Processing Product #170: 'Entangled Dining Armchair by Modway'
+[2026-08-22 15:24:43,796] INFO [classification:166] Successfully classified product #170 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:24:43,809] INFO [classification:51] Processing Product #171: 'Entangled Dining Armchair by Modway'
+[2026-08-22 15:24:48,354] INFO [classification:166] Successfully classified product #171 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:24:48,364] INFO [classification:51] Processing Product #172: 'Entangled Dining Armchair by Modway'
+[2026-08-22 15:24:51,831] INFO [classification:166] Successfully classified product #172 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:24:51,843] INFO [classification:51] Processing Product #173: 'Entangled Bar Stool by Modway'
+[2026-08-22 15:24:55,285] INFO [classification:166] Successfully classified product #173 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:24:55,301] INFO [classification:51] Processing Product #174: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:24:59,441] INFO [classification:166] Successfully classified product #174 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:24:59,454] INFO [classification:51] Processing Product #175: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:03,718] INFO [classification:166] Successfully classified product #175 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:03,731] INFO [classification:51] Processing Product #176: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:07,894] INFO [classification:166] Successfully classified product #176 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:07,908] INFO [classification:51] Processing Product #177: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:11,995] INFO [classification:166] Successfully classified product #177 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:12,008] INFO [classification:51] Processing Product #178: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:16,263] INFO [classification:166] Successfully classified product #178 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:16,277] INFO [classification:51] Processing Product #179: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:20,442] INFO [classification:166] Successfully classified product #179 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:20,456] INFO [classification:51] Processing Product #180: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:24,598] INFO [classification:166] Successfully classified product #180 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:24,609] INFO [classification:51] Processing Product #181: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:29,016] INFO [classification:166] Successfully classified product #181 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:29,026] INFO [classification:51] Processing Product #182: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:33,116] INFO [classification:166] Successfully classified product #182 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:33,127] INFO [classification:51] Processing Product #183: 'Marina 5 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:37,240] INFO [classification:166] Successfully classified product #183 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:37,250] INFO [classification:51] Processing Product #184: 'Marina 5 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:41,351] INFO [classification:166] Successfully classified product #184 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:41,360] INFO [classification:51] Processing Product #185: 'Marina 5 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:45,451] INFO [classification:166] Successfully classified product #185 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:45,461] INFO [classification:51] Processing Product #186: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:49,596] INFO [classification:166] Successfully classified product #186 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:49,606] INFO [classification:51] Processing Product #187: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:25:54,255] INFO [classification:166] Successfully classified product #187 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:25:54,277] INFO [classification:51] Processing Product #188: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:00,121] INFO [classification:166] Successfully classified product #188 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:00,146] INFO [classification:51] Processing Product #189: 'Marina 5 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:05,839] INFO [classification:166] Successfully classified product #189 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:05,863] INFO [classification:51] Processing Product #190: 'Marina 5 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:18,282] INFO [classification:166] Successfully classified product #190 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:18,303] INFO [classification:51] Processing Product #191: 'Marina 5 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:25,341] INFO [classification:166] Successfully classified product #191 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:25,362] INFO [classification:51] Processing Product #192: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:31,060] INFO [classification:166] Successfully classified product #192 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:31,081] INFO [classification:51] Processing Product #193: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:37,003] INFO [classification:166] Successfully classified product #193 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:37,039] INFO [classification:51] Processing Product #194: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:44,451] INFO [classification:166] Successfully classified product #194 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:44,492] INFO [classification:51] Processing Product #195: 'Marina 10 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:50,405] INFO [classification:166] Successfully classified product #195 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:50,427] INFO [classification:51] Processing Product #196: 'Marina 10 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:26:56,295] INFO [classification:166] Successfully classified product #196 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:26:56,330] INFO [classification:51] Processing Product #197: 'Marina 10 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:27:08,068] INFO [classification:166] Successfully classified product #197 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:27:08,097] INFO [classification:51] Processing Product #198: 'Marina 7 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:27:13,880] INFO [classification:166] Successfully classified product #198 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:27:13,902] INFO [classification:51] Processing Product #199: 'Marina 7 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:27:20,441] INFO [classification:166] Successfully classified product #199 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:27:20,464] INFO [classification:51] Processing Product #200: 'Marina 7 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:27:26,827] INFO [classification:166] Successfully classified product #200 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:27:26,858] INFO [classification:51] Processing Product #201: 'Marina 7 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:27:41,197] INFO [classification:166] Successfully classified product #201 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:27:41,219] INFO [classification:51] Processing Product #202: 'Marina 7 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:27:47,838] INFO [classification:166] Successfully classified product #202 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:27:47,867] INFO [classification:51] Processing Product #203: 'Marina 7 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:27:58,725] INFO [classification:166] Successfully classified product #203 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:27:58,745] INFO [classification:51] Processing Product #204: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:06,267] INFO [classification:166] Successfully classified product #204 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:06,296] INFO [classification:51] Processing Product #205: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:12,291] INFO [classification:166] Successfully classified product #205 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:12,315] INFO [classification:51] Processing Product #206: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:18,821] INFO [classification:166] Successfully classified product #206 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:18,850] INFO [classification:51] Processing Product #207: 'Marina 9 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:23,977] INFO [classification:166] Successfully classified product #207 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:23,989] INFO [classification:51] Processing Product #208: 'Marina 9 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:29,038] INFO [classification:166] Successfully classified product #208 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:29,052] INFO [classification:51] Processing Product #209: 'Marina 9 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:34,324] INFO [classification:166] Successfully classified product #209 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:34,340] INFO [classification:51] Processing Product #210: 'Marina 10 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:39,366] INFO [classification:166] Successfully classified product #210 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:39,387] INFO [classification:51] Processing Product #211: 'Marina 10 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:44,207] INFO [classification:166] Successfully classified product #211 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:44,224] INFO [classification:51] Processing Product #212: 'Marina 10 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:28:49,480] INFO [classification:166] Successfully classified product #212 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:28:49,492] INFO [classification:51] Processing Product #213: 'Parcel Dining Faux Leather Side Chair by Modway'
+[2026-08-22 15:28:54,407] INFO [classification:166] Successfully classified product #213 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:28:54,421] INFO [classification:51] Processing Product #214: 'Parcel Dining Faux Leather Side Chair by Modway'
+[2026-08-22 15:28:59,409] INFO [classification:166] Successfully classified product #214 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:28:59,419] INFO [classification:51] Processing Product #215: 'Parcel Dining Faux Leather Side Chair by Modway'
+[2026-08-22 15:29:04,329] INFO [classification:166] Successfully classified product #215 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:29:04,344] INFO [classification:51] Processing Product #216: 'Trace Dining Side Chair by Modway'
+[2026-08-22 15:29:09,922] INFO [classification:166] Successfully classified product #216 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:29:09,934] INFO [classification:51] Processing Product #217: 'Junction Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 15:29:18,756] INFO [classification:166] Successfully classified product #217 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:29:18,779] INFO [classification:51] Processing Product #218: 'Junction Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 15:29:30,815] INFO [classification:166] Successfully classified product #218 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:29:30,838] INFO [classification:51] Processing Product #219: 'Maine Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 15:29:38,230] INFO [classification:166] Successfully classified product #219 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:29:38,264] INFO [classification:51] Processing Product #220: 'Maine Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 15:29:45,711] INFO [classification:166] Successfully classified product #220 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:29:45,737] INFO [classification:51] Processing Product #221: 'Maine 40" Outdoor Patio Dining Table by Modway'
+[2026-08-22 15:29:52,144] INFO [classification:166] Successfully classified product #221 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:29:52,176] INFO [classification:51] Processing Product #222: 'Maine 63" Outdoor Patio Dining Table by Modway'
+[2026-08-22 15:29:58,162] INFO [classification:166] Successfully classified product #222 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:29:58,199] INFO [classification:51] Processing Product #223: 'Maine 63" Outdoor Patio Dining Table by Modway'
+[2026-08-22 15:30:04,249] INFO [classification:166] Successfully classified product #223 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:04,274] INFO [classification:51] Processing Product #224: 'Maine 80" Outdoor Patio Dining Table by Modway'
+[2026-08-22 15:30:10,276] INFO [classification:166] Successfully classified product #224 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:10,300] INFO [classification:51] Processing Product #225: 'Maine 80" Outdoor Patio Dining Table by Modway'
+[2026-08-22 15:30:15,875] INFO [classification:166] Successfully classified product #225 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:15,913] INFO [classification:51] Processing Product #226: 'Maine Outdoor Patio Bar Stool by Modway'
+[2026-08-22 15:30:21,286] INFO [classification:166] Successfully classified product #226 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:21,298] INFO [classification:51] Processing Product #227: 'Maine Outdoor Patio Bar Stool by Modway'
+[2026-08-22 15:30:26,277] INFO [classification:166] Successfully classified product #227 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:26,288] INFO [classification:51] Processing Product #228: 'Maine Outdoor Patio Bar Table by Modway'
+[2026-08-22 15:30:31,127] INFO [classification:166] Successfully classified product #228 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:31,140] INFO [classification:51] Processing Product #229: 'Maine Outdoor Patio Bar Table by Modway'
+[2026-08-22 15:30:35,833] INFO [classification:166] Successfully classified product #229 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:35,849] INFO [classification:51] Processing Product #230: 'Maine 28" Outdoor Patio Dining Table by Modway'
+[2026-08-22 15:30:42,018] INFO [classification:166] Successfully classified product #230 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:42,047] INFO [classification:51] Processing Product #231: 'Fortuna Outdoor Patio Side Table by Modway'
+[2026-08-22 15:30:47,582] INFO [classification:166] Successfully classified product #231 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:47,610] INFO [classification:51] Processing Product #232: 'Fortuna Outdoor Patio Coffee Table by Modway'
+[2026-08-22 15:30:53,159] INFO [classification:166] Successfully classified product #232 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:30:53,181] INFO [classification:51] Processing Product #233: 'Fortuna Outdoor Patio Armchair by Modway'
+[2026-08-22 15:31:00,394] INFO [classification:166] Successfully classified product #233 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:31:00,418] INFO [classification:51] Processing Product #234: 'Fortuna Outdoor Patio Armchair by Modway'
+[2026-08-22 15:31:10,839] INFO [classification:166] Successfully classified product #234 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:31:10,862] INFO [classification:51] Processing Product #235: 'Fortuna Corner Outdoor Patio Armchair by Modway'
+[2026-08-22 15:31:21,667] INFO [classification:166] Successfully classified product #235 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:31:21,692] INFO [classification:51] Processing Product #236: 'Fortuna Armless Outdoor Patio Chair by Modway'
+[2026-08-22 15:31:28,499] INFO [classification:166] Successfully classified product #236 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:31:28,531] INFO [classification:51] Processing Product #237: 'Fortuna Armless Outdoor Patio Chair by Modway'
+[2026-08-22 15:31:43,892] INFO [classification:166] Successfully classified product #237 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:31:43,915] INFO [classification:51] Processing Product #238: 'Fortuna Outdoor Patio Ottoman by Modway'
+[2026-08-22 15:31:50,901] INFO [classification:166] Successfully classified product #238 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:31:50,929] INFO [classification:51] Processing Product #239: 'Fortuna Outdoor Patio Ottoman by Modway'
+[2026-08-22 15:31:57,238] INFO [classification:166] Successfully classified product #239 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:31:57,262] INFO [classification:51] Processing Product #240: 'Fortuna Outdoor Patio Ottoman by Modway'
+[2026-08-22 15:32:04,734] INFO [classification:166] Successfully classified product #240 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:04,753] INFO [classification:51] Processing Product #241: 'Jive Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:32:12,435] INFO [classification:166] Successfully classified product #241 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:12,464] INFO [classification:51] Processing Product #242: 'Jive Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:32:18,329] INFO [classification:166] Successfully classified product #242 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:18,355] INFO [classification:51] Processing Product #243: 'Jive Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:32:25,124] INFO [classification:166] Successfully classified product #243 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:25,138] INFO [classification:51] Processing Product #244: 'Jive Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:32:31,966] INFO [classification:166] Successfully classified product #244 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:31,988] INFO [classification:51] Processing Product #245: 'Jive Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:32:37,712] INFO [classification:166] Successfully classified product #245 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:37,737] INFO [classification:51] Processing Product #246: 'Ripple Armless Mid Back Vinyl Office Chair by Modway'
+[2026-08-22 15:32:45,195] INFO [classification:166] Successfully classified product #246 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:45,224] INFO [classification:51] Processing Product #247: 'Ripple Armless Mid Back Vinyl Office Chair by Modway'
+[2026-08-22 15:32:52,114] INFO [classification:166] Successfully classified product #247 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:52,146] INFO [classification:51] Processing Product #248: 'Ripple Armless Mid Back Vinyl Office Chair by Modway'
+[2026-08-22 15:32:58,312] INFO [classification:166] Successfully classified product #248 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:32:58,334] INFO [classification:51] Processing Product #249: 'Prim Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:33:08,759] INFO [classification:166] Successfully classified product #249 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:33:08,785] INFO [classification:51] Processing Product #250: 'Prim Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:33:15,384] INFO [classification:166] Successfully classified product #250 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:33:15,410] INFO [classification:51] Processing Product #251: 'Prim Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:33:22,888] INFO [classification:166] Successfully classified product #251 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:33:22,903] INFO [classification:51] Processing Product #252: 'Prim Armless Mid Back Office Chair by Modway'
+[2026-08-22 15:33:29,142] INFO [classification:166] Successfully classified product #252 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 15:33:29,164] INFO [classification:51] Processing Product #253: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:33:35,729] INFO [classification:166] Successfully classified product #253 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:33:35,754] INFO [classification:51] Processing Product #254: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:33:41,415] INFO [classification:166] Successfully classified product #254 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:33:41,433] INFO [classification:51] Processing Product #255: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:33:46,642] INFO [classification:166] Successfully classified product #255 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:33:46,664] INFO [classification:51] Processing Product #256: 'Gear Dining Armchair by Modway'
+[2026-08-22 15:33:54,260] INFO [classification:166] Successfully classified product #256 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:33:54,285] INFO [classification:51] Processing Product #257: 'Amble Dining Side Chair by Modway'
+[2026-08-22 15:34:00,835] INFO [classification:166] Successfully classified product #257 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:00,860] INFO [classification:51] Processing Product #258: 'Gear Bar Stool by Modway'
+[2026-08-22 15:34:07,345] INFO [classification:166] Successfully classified product #258 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:07,373] INFO [classification:51] Processing Product #259: 'Gear Dining Side Chair by Modway'
+[2026-08-22 15:34:14,312] INFO [classification:166] Successfully classified product #259 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:14,351] INFO [classification:51] Processing Product #260: 'Gear Dining Side Chair by Modway'
+[2026-08-22 15:34:21,809] INFO [classification:166] Successfully classified product #260 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:21,836] INFO [classification:51] Processing Product #261: 'Gear Dining Side Chair by Modway'
+[2026-08-22 15:34:28,573] INFO [classification:166] Successfully classified product #261 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:28,604] INFO [classification:51] Processing Product #262: 'Gear Dining Side Chair by Modway'
+[2026-08-22 15:34:35,490] INFO [classification:166] Successfully classified product #262 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:35,516] INFO [classification:51] Processing Product #263: 'Gear Dining Side Chair by Modway'
+[2026-08-22 15:34:43,022] INFO [classification:166] Successfully classified product #263 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:43,042] INFO [classification:51] Processing Product #264: 'Gear Dining Side Chair by Modway'
+[2026-08-22 15:34:50,059] INFO [classification:166] Successfully classified product #264 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:50,081] INFO [classification:51] Processing Product #265: 'Gear Dining Side Chair by Modway'
+[2026-08-22 15:34:56,224] INFO [classification:166] Successfully classified product #265 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:34:56,249] INFO [classification:51] Processing Product #266: 'Eon Dining Side Chair by Modway'
+[2026-08-22 15:35:02,491] INFO [classification:166] Successfully classified product #266 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:35:02,516] INFO [classification:51] Processing Product #267: 'Eon Dining Side Chair by Modway'
+[2026-08-22 15:35:10,315] INFO [classification:166] Successfully classified product #267 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:35:10,345] INFO [classification:51] Processing Product #268: 'Empress Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:35:19,056] INFO [classification:166] Successfully classified product #268 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:35:19,074] INFO [classification:51] Processing Product #269: 'Empress Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:35:28,854] INFO [classification:166] Successfully classified product #269 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:35:28,883] INFO [classification:51] Processing Product #270: 'Empress Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:35:38,872] INFO [classification:166] Successfully classified product #270 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:35:38,897] INFO [classification:51] Processing Product #271: 'Empress Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:35:47,258] INFO [classification:166] Successfully classified product #271 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:35:47,281] INFO [classification:51] Processing Product #272: 'Empress Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:35:56,002] INFO [classification:166] Successfully classified product #272 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:35:56,030] INFO [classification:51] Processing Product #273: 'Tapestry Stainless Steel Chandelier by Modway'
+[2026-08-22 15:36:03,390] INFO [classification:166] Successfully classified product #273 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:03,418] INFO [classification:51] Processing Product #274: 'Excavate Ceiling Fixture by Modway'
+[2026-08-22 15:36:09,275] INFO [classification:166] Successfully classified product #274 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:09,298] INFO [classification:51] Processing Product #275: 'Beam Stainless Steel Chandelier by Modway'
+[2026-08-22 15:36:16,681] INFO [classification:166] Successfully classified product #275 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:16,709] INFO [classification:51] Processing Product #276: 'Innovateous Ceiling Fixture by Modway'
+[2026-08-22 15:36:23,636] INFO [classification:166] Successfully classified product #276 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:23,660] INFO [classification:51] Processing Product #277: 'Tagmata Ceiling Fixture by Modway'
+[2026-08-22 15:36:29,711] INFO [classification:166] Successfully classified product #277 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:29,737] INFO [classification:51] Processing Product #278: 'Catapult Chandelier by Modway'
+[2026-08-22 15:36:36,634] INFO [classification:166] Successfully classified product #278 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:36,662] INFO [classification:51] Processing Product #279: 'Ballista Chandelier by Modway'
+[2026-08-22 15:36:43,198] INFO [classification:166] Successfully classified product #279 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:43,223] INFO [classification:51] Processing Product #280: 'Fortune Chandelier by Modway'
+[2026-08-22 15:36:50,705] INFO [classification:166] Successfully classified product #280 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:50,734] INFO [classification:51] Processing Product #281: 'Encircle Chandelier by Modway'
+[2026-08-22 15:36:57,214] INFO [classification:166] Successfully classified product #281 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:36:57,237] INFO [classification:51] Processing Product #282: 'Frost Chandelier by Modway'
+[2026-08-22 15:37:04,262] INFO [classification:166] Successfully classified product #282 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:37:04,288] INFO [classification:51] Processing Product #283: 'Goodwill Metal Chandelier by Modway'
+[2026-08-22 15:37:09,667] INFO [classification:166] Successfully classified product #283 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 15:37:09,697] INFO [classification:51] Processing Product #284: 'Marina 6 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:37:15,537] INFO [classification:166] Successfully classified product #284 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:37:15,549] INFO [classification:51] Processing Product #285: 'Marina 6 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:37:21,746] INFO [classification:166] Successfully classified product #285 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:37:21,773] INFO [classification:51] Processing Product #286: 'Marina 6 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:37:28,547] INFO [classification:166] Successfully classified product #286 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:37:28,577] INFO [classification:51] Processing Product #288: 'Remark Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:37:41,559] INFO [classification:166] Successfully classified product #288 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:37:41,586] INFO [classification:51] Processing Product #289: 'Remark Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:37:50,785] INFO [classification:166] Successfully classified product #289 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:37:50,821] INFO [classification:51] Processing Product #290: 'Remark Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:38:00,807] INFO [classification:166] Successfully classified product #290 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:38:00,838] INFO [classification:51] Processing Product #291: 'Remark Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:38:10,217] INFO [classification:166] Successfully classified product #291 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:38:10,247] INFO [classification:51] Processing Product #292: 'Remark Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:38:17,813] INFO [classification:166] Successfully classified product #292 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:38:17,854] INFO [classification:51] Processing Product #293: 'Remark Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:38:26,172] INFO [classification:166] Successfully classified product #293 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:38:26,209] INFO [classification:51] Processing Product #294: 'Remark Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:38:33,846] INFO [classification:166] Successfully classified product #294 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:38:33,885] INFO [classification:51] Processing Product #295: 'Lippa 24" Square Wood Dining Table by Modway'
+[2026-08-22 15:38:40,357] INFO [classification:166] Successfully classified product #295 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:38:40,381] INFO [classification:51] Processing Product #296: 'Lippa 60" Rectangle Wood Dining Table by Modway'
+[2026-08-22 15:38:44,949] INFO [classification:166] Successfully classified product #296 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:38:44,979] INFO [classification:51] Processing Product #297: 'Lippa 78" Oval Wood Dining Table by Modway'
+[2026-08-22 15:38:49,549] INFO [classification:166] Successfully classified product #297 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:38:49,573] INFO [classification:51] Processing Product #298: 'Lippa 78" Oval Faux Marble Dining Table by Modway'
+[2026-08-22 15:38:54,427] INFO [classification:166] Successfully classified product #298 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:38:54,449] INFO [classification:51] Processing Product #299: 'Lippa 78" Oval Wood Dining Table by Modway'
+[2026-08-22 15:39:00,256] INFO [classification:166] Successfully classified product #299 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:39:00,274] INFO [classification:51] Processing Product #300: 'Empress Left-Facing Upholstered Fabric Sectional Sofa by Modway'
+[2026-08-22 15:39:08,047] INFO [classification:166] Successfully classified product #300 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:39:08,067] INFO [classification:51] Processing Product #301: 'Empress Left-Facing Upholstered Fabric Sectional Sofa by Modway'
+[2026-08-22 15:39:14,229] INFO [classification:166] Successfully classified product #301 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:39:14,241] INFO [classification:51] Processing Product #302: 'Tracy Wood Dining Chairs Set of 4 by Modway'
+[2026-08-22 15:39:19,783] INFO [classification:166] Successfully classified product #302 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:39:19,799] INFO [classification:51] Processing Product #303: 'Gather Corner and Middle Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:39:25,861] INFO [classification:166] Successfully classified product #303 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:39:25,870] INFO [classification:51] Processing Product #304: 'Gather Corner and Middle Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:39:31,897] INFO [classification:166] Successfully classified product #304 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:39:31,906] INFO [classification:51] Processing Product #305: 'Gather Corner and Middle Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:39:37,692] INFO [classification:166] Successfully classified product #305 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:39:37,702] INFO [classification:51] Processing Product #306: 'Gather Corner and Middle Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:39:43,571] INFO [classification:166] Successfully classified product #306 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:39:43,585] INFO [classification:51] Processing Product #307: 'Gather Outdoor Patio Armchair by Modway'
+[2026-08-22 15:39:52,252] INFO [classification:166] Successfully classified product #307 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:39:52,262] INFO [classification:51] Processing Product #308: 'Gather Outdoor Patio Armchair by Modway'
+[2026-08-22 15:40:01,336] INFO [classification:166] Successfully classified product #308 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:01,345] INFO [classification:51] Processing Product #309: 'Gather Outdoor Patio Armchair by Modway'
+[2026-08-22 15:40:09,766] INFO [classification:166] Successfully classified product #309 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:09,776] INFO [classification:51] Processing Product #310: 'Gather Outdoor Patio Armchair by Modway'
+[2026-08-22 15:40:18,272] INFO [classification:166] Successfully classified product #310 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:18,284] INFO [classification:51] Processing Product #311: 'Gather Outdoor Patio Corner Sectional Set of 2 by Modway'
+[2026-08-22 15:40:24,386] INFO [classification:166] Successfully classified product #311 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:24,395] INFO [classification:51] Processing Product #312: 'Gather Outdoor Patio Corner Sectional Set of 2 by Modway'
+[2026-08-22 15:40:30,304] INFO [classification:166] Successfully classified product #312 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:30,316] INFO [classification:51] Processing Product #313: 'Gather Outdoor Patio Corner Sectional Set of 2 by Modway'
+[2026-08-22 15:40:36,518] INFO [classification:166] Successfully classified product #313 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:36,528] INFO [classification:51] Processing Product #314: 'Gather Outdoor Patio Corner Sectional Set of 2 by Modway'
+[2026-08-22 15:40:42,661] INFO [classification:166] Successfully classified product #314 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:42,670] INFO [classification:51] Processing Product #315: 'Gather Outdoor Patio Armless Chair Set of 2 by Modway'
+[2026-08-22 15:40:48,897] INFO [classification:166] Successfully classified product #315 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:48,919] INFO [classification:51] Processing Product #316: 'Gather Outdoor Patio Armless Chair Set of 2 by Modway'
+[2026-08-22 15:40:54,643] INFO [classification:166] Successfully classified product #316 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:40:54,652] INFO [classification:51] Processing Product #317: 'Gather Armless Outdoor Patio Sectional by Modway'
+[2026-08-22 15:41:04,512] INFO [classification:166] Successfully classified product #317 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:41:04,531] INFO [classification:51] Processing Product #318: 'Gather Armless Outdoor Patio Sectional by Modway'
+[2026-08-22 15:41:13,770] INFO [classification:166] Successfully classified product #318 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:41:13,787] INFO [classification:51] Processing Product #319: 'Gather Armless Outdoor Patio Sectional by Modway'
+[2026-08-22 15:41:22,707] INFO [classification:166] Successfully classified product #319 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:41:22,720] INFO [classification:51] Processing Product #320: 'Gather Armless Outdoor Patio Sectional by Modway'
+[2026-08-22 15:41:30,255] INFO [classification:166] Successfully classified product #320 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:41:30,266] INFO [classification:51] Processing Product #321: 'Gather Outdoor Patio Ottoman by Modway'
+[2026-08-22 15:41:38,253] INFO [classification:166] Successfully classified product #321 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:41:38,265] INFO [classification:51] Processing Product #322: 'Gather 10 Piece Outdoor Patio Pillow Set by Modway'
+[2026-08-22 15:41:43,797] INFO [classification:166] Successfully classified product #322 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:41:43,816] INFO [classification:51] Processing Product #323: 'Haste Backless Stool by Modway'
+[2026-08-22 15:41:50,633] INFO [classification:166] Successfully classified product #323 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:41:50,649] INFO [classification:51] Processing Product #324: 'Haste Backless Stool by Modway'
+[2026-08-22 15:41:57,464] INFO [classification:166] Successfully classified product #324 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:41:57,472] INFO [classification:51] Processing Product #325: 'Haste Backless Stool by Modway'
+[2026-08-22 15:42:05,162] INFO [classification:166] Successfully classified product #325 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:42:05,171] INFO [classification:51] Processing Product #326: 'Haste Backless Stool by Modway'
+[2026-08-22 15:42:09,659] INFO [classification:166] Successfully classified product #326 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:42:09,674] INFO [classification:51] Processing Product #327: 'Hipster Dining Side Chair by Modway'
+[2026-08-22 15:42:15,464] INFO [classification:166] Successfully classified product #327 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:42:15,488] INFO [classification:51] Processing Product #328: 'Hipster Dining Side Chair by Modway'
+[2026-08-22 15:42:22,120] INFO [classification:166] Successfully classified product #328 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:42:22,152] INFO [classification:51] Processing Product #329: 'Hipster Dining Side Chair by Modway'
+[2026-08-22 15:42:27,063] INFO [classification:166] Successfully classified product #329 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:42:27,088] INFO [classification:51] Processing Product #330: 'Casper Backless Bar Stool by Modway'
+[2026-08-22 15:42:33,638] INFO [classification:166] Successfully classified product #330 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:42:33,669] INFO [classification:51] Processing Product #331: 'Fortuna 9 Piece Outdoor Patio Sectional Sofa Set by Modway'
+[2026-08-22 15:42:39,996] INFO [classification:166] Successfully classified product #331 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:42:40,022] INFO [classification:51] Processing Product #332: 'Casper Backless Counter Stool by Modway'
+[2026-08-22 15:42:46,695] INFO [classification:166] Successfully classified product #332 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:42:46,722] INFO [classification:51] Processing Product #333: 'Fortuna 5 Piece Outdoor Patio Sectional Sofa Set by Modway'
+[2026-08-22 15:42:53,473] INFO [classification:166] Successfully classified product #333 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:42:53,500] INFO [classification:51] Processing Product #334: 'Fortuna 3 Piece Outdoor Patio Sectional Sofa Set by Modway'
+[2026-08-22 15:43:05,838] INFO [classification:166] Successfully classified product #334 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:43:05,865] INFO [classification:51] Processing Product #335: 'Fortuna 6 Piece Outdoor Patio Sectional Sofa Set by Modway'
+[2026-08-22 15:43:12,516] INFO [classification:166] Successfully classified product #335 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:43:12,539] INFO [classification:51] Processing Product #336: 'Fortuna 8 Piece Outdoor Patio Sectional Sofa Set by Modway'
+[2026-08-22 15:43:19,126] INFO [classification:166] Successfully classified product #336 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:43:19,151] INFO [classification:51] Processing Product #337: 'Fortuna 6 Piece Outdoor Patio Sectional Sofa Set by Modway'
+[2026-08-22 15:43:25,940] INFO [classification:166] Successfully classified product #337 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:43:25,961] INFO [classification:51] Processing Product #338: 'Fortuna 9 Piece Outdoor Patio Sectional Sofa Set by Modway'
+[2026-08-22 15:43:32,493] INFO [classification:166] Successfully classified product #338 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:43:32,515] INFO [classification:51] Processing Product #339: 'Fortuna 8 Piece Outdoor Patio Sectional Sofa Set by Modway'
+[2026-08-22 15:43:39,400] INFO [classification:166] Successfully classified product #339 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:43:39,422] INFO [classification:51] Processing Product #340: 'Junction Outdoor Patio Wicker Armchair Set of 2 by Modway'
+[2026-08-22 15:43:49,762] INFO [classification:166] Successfully classified product #340 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:43:49,786] INFO [classification:51] Processing Product #341: 'Junction Outdoor Patio Wicker Armchair Set of 2 by Modway'
+[2026-08-22 15:44:00,007] INFO [classification:166] Successfully classified product #341 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:44:00,050] INFO [classification:51] Processing Product #342: 'Maine Outdoor Patio Dining Armchair Set of 2 by Modway'
+[2026-08-22 15:44:07,193] INFO [classification:166] Successfully classified product #342 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:44:07,220] INFO [classification:51] Processing Product #343: 'Maine Outdoor Patio Dining Armchair Set of 2 by Modway'
+[2026-08-22 15:44:13,856] INFO [classification:166] Successfully classified product #343 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:44:13,886] INFO [classification:51] Processing Product #344: 'Maine Outdoor Patio Bar Stool Set of 2 by Modway'
+[2026-08-22 15:44:21,127] INFO [classification:166] Successfully classified product #344 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:44:21,150] INFO [classification:51] Processing Product #345: 'Maine Outdoor Patio Bar Stool Set of 2 by Modway'
+[2026-08-22 15:44:27,947] INFO [classification:166] Successfully classified product #345 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:44:27,969] INFO [classification:51] Processing Product #346: 'Maine 3 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:44:34,211] INFO [classification:166] Successfully classified product #346 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:44:34,243] INFO [classification:51] Processing Product #347: 'Maine 5 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:44:42,859] INFO [classification:166] Successfully classified product #347 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:44:42,906] INFO [classification:51] Processing Product #348: 'Junction 5 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:44:51,280] INFO [classification:166] Successfully classified product #348 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:44:51,310] INFO [classification:51] Processing Product #349: 'Junction 5 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:44:59,994] INFO [classification:166] Successfully classified product #349 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:00,026] INFO [classification:51] Processing Product #350: 'Maine 5 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:45:06,005] INFO [classification:166] Successfully classified product #350 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:06,020] INFO [classification:51] Processing Product #351: 'Maine 5 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:45:10,801] INFO [classification:166] Successfully classified product #351 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:10,812] INFO [classification:51] Processing Product #352: 'Junction 7 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:45:18,868] INFO [classification:166] Successfully classified product #352 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:18,890] INFO [classification:51] Processing Product #353: 'Junction 7 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:45:29,151] INFO [classification:166] Successfully classified product #353 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:29,164] INFO [classification:51] Processing Product #354: 'Maine 7 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:45:34,412] INFO [classification:166] Successfully classified product #354 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:34,422] INFO [classification:51] Processing Product #355: 'Maine 7 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:45:40,960] INFO [classification:166] Successfully classified product #355 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:40,979] INFO [classification:51] Processing Product #356: 'Junction 7 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:45:49,410] INFO [classification:166] Successfully classified product #356 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:49,430] INFO [classification:51] Processing Product #357: 'Junction 7 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:45:57,811] INFO [classification:166] Successfully classified product #357 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:45:57,841] INFO [classification:51] Processing Product #358: 'Maine 7 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:46:04,704] INFO [classification:166] Successfully classified product #358 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:46:04,728] INFO [classification:51] Processing Product #359: 'Maine 7 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:46:11,280] INFO [classification:166] Successfully classified product #359 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:46:11,309] INFO [classification:51] Processing Product #360: 'Junction 9 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:46:19,718] INFO [classification:166] Successfully classified product #360 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:46:19,745] INFO [classification:51] Processing Product #361: 'Junction 9 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:46:28,095] INFO [classification:166] Successfully classified product #361 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:46:28,124] INFO [classification:51] Processing Product #362: 'Maine 9 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:46:35,207] INFO [classification:166] Successfully classified product #362 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:46:35,230] INFO [classification:51] Processing Product #363: 'Maine 9 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:46:42,062] INFO [classification:166] Successfully classified product #363 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:46:42,092] INFO [classification:51] Processing Product #364: 'Maine 3 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:46:48,857] INFO [classification:166] Successfully classified product #364 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:46:48,879] INFO [classification:51] Processing Product #365: 'Maine 3 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:46:55,600] INFO [classification:166] Successfully classified product #365 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:46:55,624] INFO [classification:51] Processing Product #366: 'Maine 5 Piece Outdoor Patio Bar Set by Modway'
+[2026-08-22 15:47:02,003] INFO [classification:166] Successfully classified product #366 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:47:02,024] INFO [classification:51] Processing Product #367: 'Maine 5 Piece Outdoor Patio Bar Set by Modway'
+[2026-08-22 15:47:25,849] INFO [classification:166] Successfully classified product #367 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:47:25,863] INFO [classification:51] Processing Product #368: 'Junction 3 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:47:32,864] INFO [classification:166] Successfully classified product #368 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:47:32,879] INFO [classification:51] Processing Product #369: 'Maine 3 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:47:37,841] INFO [classification:166] Successfully classified product #369 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:47:37,856] INFO [classification:51] Processing Product #370: 'Junction 5 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:47:45,702] INFO [classification:166] Successfully classified product #370 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:47:45,720] INFO [classification:51] Processing Product #371: 'Maine 5 Piece Outdoor Patio Dining Set by Modway'
+[2026-08-22 15:47:51,003] INFO [classification:166] Successfully classified product #371 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:47:51,017] INFO [classification:51] Processing Product #372: 'Casper Dining Armchairs Set of 4 by Modway'
+[2026-08-22 15:47:56,209] INFO [classification:166] Successfully classified product #372 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:47:56,220] INFO [classification:51] Processing Product #373: 'Remark 2 Piece Living Room Set by Modway'
+[2026-08-22 15:48:01,388] INFO [classification:166] Successfully classified product #373 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:01,404] INFO [classification:51] Processing Product #374: 'Engage Right-Arm Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:48:08,739] INFO [classification:166] Successfully classified product #374 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:08,754] INFO [classification:51] Processing Product #375: 'Engage Right-Arm Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:48:13,331] INFO [classification:166] Successfully classified product #375 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:13,346] INFO [classification:51] Processing Product #376: 'Engage Left-Facing Upholstered Fabric Chaise by Modway'
+[2026-08-22 15:48:20,771] INFO [classification:166] Successfully classified product #376 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:20,791] INFO [classification:51] Processing Product #377: 'Engage Right-Facing Upholstered Fabric Chaise by Modway'
+[2026-08-22 15:48:27,598] INFO [classification:166] Successfully classified product #377 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:27,607] INFO [classification:51] Processing Product #378: 'Engage Right-Facing Upholstered Fabric Chaise by Modway'
+[2026-08-22 15:48:35,565] INFO [classification:166] Successfully classified product #378 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:35,573] INFO [classification:51] Processing Product #379: 'Engage Right-Facing Upholstered Fabric Chaise by Modway'
+[2026-08-22 15:48:43,096] INFO [classification:166] Successfully classified product #379 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:43,108] INFO [classification:51] Processing Product #380: 'Engage Right-Facing Upholstered Fabric Chaise by Modway'
+[2026-08-22 15:48:47,557] INFO [classification:166] Successfully classified product #380 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:47,565] INFO [classification:51] Processing Product #381: 'Engage Left-Arm Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:48:53,796] INFO [classification:166] Successfully classified product #381 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:48:53,804] INFO [classification:51] Processing Product #382: 'Engage Left-Arm Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:49:01,027] INFO [classification:166] Successfully classified product #382 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:49:01,037] INFO [classification:51] Processing Product #383: 'Engage Left-Arm Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:49:07,999] INFO [classification:166] Successfully classified product #383 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:49:08,010] INFO [classification:51] Processing Product #384: 'Engage Left-Arm Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:49:12,322] INFO [classification:166] Successfully classified product #384 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:49:12,331] INFO [classification:51] Processing Product #385: 'Engage Upholstered Fabric Corner Chair by Modway'
+[2026-08-22 15:49:21,044] INFO [classification:166] Successfully classified product #385 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:49:21,053] INFO [classification:51] Processing Product #386: 'Engage Upholstered Fabric Corner Chair by Modway'
+[2026-08-22 15:49:28,680] INFO [classification:166] Successfully classified product #386 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:49:28,697] INFO [classification:51] Processing Product #387: 'Engage Upholstered Fabric Corner Chair by Modway'
+[2026-08-22 15:49:38,614] INFO [classification:166] Successfully classified product #387 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:49:38,623] INFO [classification:51] Processing Product #388: 'Engage Upholstered Fabric Corner Chair by Modway'
+[2026-08-22 15:49:48,001] INFO [classification:166] Successfully classified product #388 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:49:48,012] INFO [classification:51] Processing Product #389: 'Engage Upholstered Fabric Corner Chair by Modway'
+[2026-08-22 15:49:52,309] INFO [classification:166] Successfully classified product #389 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:49:52,320] INFO [classification:51] Processing Product #390: 'Engage Upholstered Fabric Ottoman by Modway'
+[2026-08-22 15:50:00,057] INFO [classification:166] Successfully classified product #390 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:50:00,069] INFO [classification:51] Processing Product #391: 'Engage Upholstered Fabric Ottoman by Modway'
+[2026-08-22 15:50:07,300] INFO [classification:166] Successfully classified product #391 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:50:07,308] INFO [classification:51] Processing Product #392: 'Engage Upholstered Fabric Ottoman by Modway'
+[2026-08-22 15:50:16,669] INFO [classification:166] Successfully classified product #392 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:50:16,688] INFO [classification:51] Processing Product #393: 'Engage Upholstered Fabric Ottoman by Modway'
+[2026-08-22 15:50:24,711] INFO [classification:166] Successfully classified product #393 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:50:24,726] INFO [classification:51] Processing Product #394: 'Beguile Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:50:33,567] INFO [classification:166] Successfully classified product #394 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:50:33,579] INFO [classification:51] Processing Product #395: 'Beguile Upholstered Fabric Loveseat by Modway'
+[2026-08-22 15:50:42,009] INFO [classification:166] Successfully classified product #395 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:50:42,020] INFO [classification:51] Processing Product #396: 'Beguile Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:50:48,497] INFO [classification:166] Successfully classified product #396 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:50:48,511] INFO [classification:51] Processing Product #397: 'Beguile Upholstered Fabric Sofa by Modway'
+[2026-08-22 15:50:55,817] INFO [classification:166] Successfully classified product #397 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:50:55,830] INFO [classification:51] Processing Product #398: 'Panache Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:51:06,982] INFO [classification:166] Successfully classified product #398 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:51:06,993] INFO [classification:51] Processing Product #399: 'Panache Upholstered Fabric Armchair by Modway'
+[2026-08-22 15:51:18,869] INFO [classification:166] Successfully classified product #399 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 15:51:18,882] INFO [classification:51] Processing Product #400: 'Gather 7 Piece Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:51:24,722] INFO [classification:166] Successfully classified product #400 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:51:24,733] INFO [classification:51] Processing Product #401: 'Convene 5 Piece Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:51:30,808] INFO [classification:166] Successfully classified product #401 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:51:30,819] INFO [classification:51] Processing Product #402: 'Convene 5 Piece Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:51:37,097] INFO [classification:166] Successfully classified product #402 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:51:37,108] INFO [classification:51] Processing Product #403: 'Convene 5 Piece Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:51:43,193] INFO [classification:166] Successfully classified product #403 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:51:43,215] INFO [classification:51] Processing Product #404: 'Convene 5 Piece Outdoor Patio Sectional Set by Modway'
+[2026-08-22 15:51:49,115] INFO [classification:166] Successfully classified product #404 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:51:49,126] INFO [classification:51] Processing Product #405: 'Marina 6 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:51:53,931] INFO [classification:166] Successfully classified product #405 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:51:53,947] INFO [classification:51] Processing Product #406: 'Marina 6 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:51:58,411] INFO [classification:166] Successfully classified product #406 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:51:58,425] INFO [classification:51] Processing Product #407: 'Marina 6 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:03,273] INFO [classification:166] Successfully classified product #407 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:03,290] INFO [classification:51] Processing Product #408: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:08,385] INFO [classification:166] Successfully classified product #408 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:08,400] INFO [classification:51] Processing Product #409: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:12,981] INFO [classification:166] Successfully classified product #409 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:12,996] INFO [classification:51] Processing Product #410: 'Marina 8 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:17,866] INFO [classification:166] Successfully classified product #410 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:17,878] INFO [classification:51] Processing Product #411: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:22,971] INFO [classification:166] Successfully classified product #411 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:22,983] INFO [classification:51] Processing Product #412: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:27,918] INFO [classification:166] Successfully classified product #412 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:27,929] INFO [classification:51] Processing Product #413: 'Marina 4 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:33,228] INFO [classification:166] Successfully classified product #413 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:33,238] INFO [classification:51] Processing Product #414: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:38,207] INFO [classification:166] Successfully classified product #414 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:38,217] INFO [classification:51] Processing Product #415: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:44,442] INFO [classification:166] Successfully classified product #415 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:44,467] INFO [classification:51] Processing Product #416: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:50,650] INFO [classification:166] Successfully classified product #416 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:50,680] INFO [classification:51] Processing Product #417: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:52:57,326] INFO [classification:166] Successfully classified product #417 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:52:57,353] INFO [classification:51] Processing Product #418: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:03,087] INFO [classification:166] Successfully classified product #418 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:03,108] INFO [classification:51] Processing Product #419: 'Marina 3 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:09,308] INFO [classification:166] Successfully classified product #419 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:09,329] INFO [classification:51] Processing Product #420: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:17,080] INFO [classification:166] Successfully classified product #420 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:17,108] INFO [classification:51] Processing Product #421: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:23,539] INFO [classification:166] Successfully classified product #421 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:23,568] INFO [classification:51] Processing Product #422: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:29,865] INFO [classification:166] Successfully classified product #422 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:29,894] INFO [classification:51] Processing Product #423: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:37,103] INFO [classification:166] Successfully classified product #423 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:37,124] INFO [classification:51] Processing Product #424: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:43,125] INFO [classification:166] Successfully classified product #424 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:43,147] INFO [classification:51] Processing Product #425: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:49,574] INFO [classification:166] Successfully classified product #425 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:49,595] INFO [classification:51] Processing Product #426: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:53:56,864] INFO [classification:166] Successfully classified product #426 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:53:56,884] INFO [classification:51] Processing Product #427: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:54:02,107] INFO [classification:166] Successfully classified product #427 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:54:02,122] INFO [classification:51] Processing Product #428: 'Marina 2 Piece Outdoor Patio Teak Set by Modway'
+[2026-08-22 15:54:06,959] INFO [classification:166] Successfully classified product #428 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:54:06,969] INFO [classification:51] Processing Product #429: 'Lippa 28" Round Wood Bar Table by Modway'
+[2026-08-22 15:54:10,598] INFO [classification:166] Successfully classified product #429 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:54:10,612] INFO [classification:51] Processing Product #430: 'Lippa 28" Square Wood Bar Table by Modway'
+[2026-08-22 15:54:15,598] INFO [classification:166] Successfully classified product #430 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:54:15,623] INFO [classification:51] Processing Product #431: 'Lippa 28" Round Faux Marble Bar Table by Modway'
+[2026-08-22 15:54:20,596] INFO [classification:166] Successfully classified product #431 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 15:54:20,615] INFO [classification:51] Processing Product #432: 'Convene Outdoor Patio Corner by Modway'
+[2026-08-22 15:54:33,102] INFO [classification:166] Successfully classified product #432 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:54:33,135] INFO [classification:51] Processing Product #433: 'Convene Outdoor Patio Corner by Modway'
+[2026-08-22 15:54:43,877] INFO [classification:166] Successfully classified product #433 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:54:43,905] INFO [classification:51] Processing Product #434: 'Convene Outdoor Patio Corner by Modway'
+[2026-08-22 15:54:54,757] INFO [classification:166] Successfully classified product #434 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:54:54,778] INFO [classification:51] Processing Product #435: 'Convene Outdoor Patio Corner by Modway'
+[2026-08-22 15:55:05,797] INFO [classification:166] Successfully classified product #435 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:55:05,819] INFO [classification:51] Processing Product #436: 'Convene Outdoor Patio Corner by Modway'
+[2026-08-22 15:55:15,744] INFO [classification:166] Successfully classified product #436 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:55:15,773] INFO [classification:51] Processing Product #437: 'Convene Outdoor Patio Corner by Modway'
+[2026-08-22 15:55:26,746] INFO [classification:166] Successfully classified product #437 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:55:26,768] INFO [classification:51] Processing Product #438: 'Convene Outdoor Patio Corner by Modway'
+[2026-08-22 15:55:36,165] INFO [classification:166] Successfully classified product #438 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:55:36,192] INFO [classification:51] Processing Product #439: 'Convene Outdoor Patio Left Arm Loveseat by Modway'
+[2026-08-22 15:55:45,894] INFO [classification:166] Successfully classified product #439 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:55:45,932] INFO [classification:51] Processing Product #440: 'Convene Outdoor Patio Left Arm Loveseat by Modway'
+[2026-08-22 15:55:55,474] INFO [classification:166] Successfully classified product #440 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:55:55,510] INFO [classification:51] Processing Product #441: 'Convene Outdoor Patio Left Arm Loveseat by Modway'
+[2026-08-22 15:56:04,646] INFO [classification:166] Successfully classified product #441 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:56:04,678] INFO [classification:51] Processing Product #442: 'Convene Outdoor Patio Left Arm Loveseat by Modway'
+[2026-08-22 15:56:14,191] INFO [classification:166] Successfully classified product #442 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:56:14,221] INFO [classification:51] Processing Product #443: 'Convene Outdoor Patio Left Arm Loveseat by Modway'
+[2026-08-22 15:56:24,046] INFO [classification:166] Successfully classified product #443 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:56:24,074] INFO [classification:51] Processing Product #444: 'Convene Outdoor Patio Left Arm Loveseat by Modway'
+[2026-08-22 15:56:32,639] INFO [classification:166] Successfully classified product #444 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:56:32,671] INFO [classification:51] Processing Product #445: 'Convene Outdoor Patio Fabric Right Arm Chaise by Modway'
+[2026-08-22 15:56:41,317] INFO [classification:166] Successfully classified product #445 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:56:41,344] INFO [classification:51] Processing Product #446: 'Convene Outdoor Patio Fabric Right Arm Chaise by Modway'
+[2026-08-22 15:56:49,880] INFO [classification:166] Successfully classified product #446 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:56:49,907] INFO [classification:51] Processing Product #447: 'Convene Outdoor Patio Sofa by Modway'
+[2026-08-22 15:56:58,724] INFO [classification:166] Successfully classified product #447 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:56:58,751] INFO [classification:51] Processing Product #448: 'Convene Outdoor Patio Sofa by Modway'
+[2026-08-22 15:57:24,852] INFO [classification:166] Successfully classified product #448 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:57:24,877] INFO [classification:51] Processing Product #449: 'Convene Outdoor Patio Sofa by Modway'
+[2026-08-22 15:57:31,802] INFO [classification:166] Successfully classified product #449 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:57:31,817] INFO [classification:51] Processing Product #450: 'Convene Outdoor Patio Sofa by Modway'
+[2026-08-22 15:57:38,599] INFO [classification:166] Successfully classified product #450 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:57:38,628] INFO [classification:51] Processing Product #451: 'Convene Outdoor Patio Sofa by Modway'
+[2026-08-22 15:57:58,560] INFO [classification:166] Successfully classified product #451 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:57:58,589] INFO [classification:51] Processing Product #452: 'Convene Outdoor Patio Sofa by Modway'
+[2026-08-22 15:58:05,265] INFO [classification:166] Successfully classified product #452 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:58:05,287] INFO [classification:51] Processing Product #453: 'Convene Outdoor Patio Fabric Rectangle Ottoman by Modway'
+[2026-08-22 15:58:12,097] INFO [classification:166] Successfully classified product #453 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:58:12,115] INFO [classification:51] Processing Product #454: 'Convene Outdoor Patio Fabric Rectangle Ottoman by Modway'
+[2026-08-22 15:58:18,768] INFO [classification:166] Successfully classified product #454 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:58:18,797] INFO [classification:51] Processing Product #455: 'Convene Outdoor Patio Fabric Rectangle Ottoman by Modway'
+[2026-08-22 15:58:25,602] INFO [classification:166] Successfully classified product #455 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:58:25,637] INFO [classification:51] Processing Product #456: 'Convene Outdoor Patio Fabric Rectangle Ottoman by Modway'
+[2026-08-22 15:58:31,931] INFO [classification:166] Successfully classified product #456 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:58:31,953] INFO [classification:51] Processing Product #457: 'Sojourn Outdoor Patio Sunbrella® Armchair by Modway'
+[2026-08-22 15:58:40,101] INFO [classification:166] Successfully classified product #457 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:58:40,127] INFO [classification:51] Processing Product #458: 'Sojourn Outdoor Patio Sunbrella® Armchair by Modway'
+[2026-08-22 15:58:48,185] INFO [classification:166] Successfully classified product #458 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:58:48,213] INFO [classification:51] Processing Product #459: 'Sojourn Outdoor Patio Sunbrella® Armchair by Modway'
+[2026-08-22 15:58:56,258] INFO [classification:166] Successfully classified product #459 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:58:56,291] INFO [classification:51] Processing Product #460: 'Sojourn Outdoor Patio Sunbrella® Loveseat by Modway'
+[2026-08-22 15:59:03,513] INFO [classification:166] Successfully classified product #460 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:59:03,547] INFO [classification:51] Processing Product #461: 'Sojourn Outdoor Patio Sunbrella® Loveseat by Modway'
+[2026-08-22 15:59:10,966] INFO [classification:166] Successfully classified product #461 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:59:10,990] INFO [classification:51] Processing Product #462: 'Sojourn Outdoor Patio Coffee Table by Modway'
+[2026-08-22 15:59:17,721] INFO [classification:166] Successfully classified product #462 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:59:17,744] INFO [classification:51] Processing Product #463: 'Sojourn Outdoor Patio Side Table by Modway'
+[2026-08-22 15:59:26,638] INFO [classification:166] Successfully classified product #463 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:59:26,658] INFO [classification:51] Processing Product #464: 'Sojourn Outdoor Patio Fabric Sunbrella® Armless by Modway'
+[2026-08-22 15:59:34,832] INFO [classification:166] Successfully classified product #464 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:59:34,856] INFO [classification:51] Processing Product #465: 'Sojourn Outdoor Patio Fabric Sunbrella® Armless by Modway'
+[2026-08-22 15:59:43,064] INFO [classification:166] Successfully classified product #465 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:59:43,092] INFO [classification:51] Processing Product #466: 'Sojourn Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 15:59:51,045] INFO [classification:166] Successfully classified product #466 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:59:51,069] INFO [classification:51] Processing Product #467: 'Sojourn Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 15:59:58,921] INFO [classification:166] Successfully classified product #467 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 15:59:58,948] INFO [classification:51] Processing Product #468: 'Sojourn Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 16:00:07,042] INFO [classification:166] Successfully classified product #468 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:00:07,071] INFO [classification:51] Processing Product #469: 'Sojourn Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 16:00:14,843] INFO [classification:166] Successfully classified product #469 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:00:14,863] INFO [classification:51] Processing Product #470: 'Sojourn Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 16:00:23,084] INFO [classification:166] Successfully classified product #470 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:00:23,107] INFO [classification:51] Processing Product #471: 'Sojourn Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:00:31,388] INFO [classification:166] Successfully classified product #471 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:00:31,413] INFO [classification:51] Processing Product #472: 'Sojourn Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:00:39,440] INFO [classification:166] Successfully classified product #472 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:00:39,467] INFO [classification:51] Processing Product #473: 'Sojourn Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:00:47,047] INFO [classification:166] Successfully classified product #473 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:00:47,074] INFO [classification:51] Processing Product #474: 'Sojourn Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:00:54,518] INFO [classification:166] Successfully classified product #474 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:00:54,545] INFO [classification:51] Processing Product #475: 'Sojourn Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:01:02,879] INFO [classification:166] Successfully classified product #475 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:02,903] INFO [classification:51] Processing Product #476: 'Sojourn Outdoor Patio Sunbrella® Right Arm Loveseat by Modway'
+[2026-08-22 16:01:09,821] INFO [classification:166] Successfully classified product #476 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:09,851] INFO [classification:51] Processing Product #477: 'Sojourn Outdoor Patio Sunbrella® Left Arm Loveseat by Modway'
+[2026-08-22 16:01:16,834] INFO [classification:166] Successfully classified product #477 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:16,850] INFO [classification:51] Processing Product #478: 'Sojourn Outdoor Patio Sunbrella® Left Arm Loveseat by Modway'
+[2026-08-22 16:01:21,885] INFO [classification:166] Successfully classified product #478 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:21,896] INFO [classification:51] Processing Product #479: 'Sojourn Outdoor Patio Sunbrella® Sofa by Modway'
+[2026-08-22 16:01:26,843] INFO [classification:166] Successfully classified product #479 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:26,856] INFO [classification:51] Processing Product #480: 'Sojourn Outdoor Patio Sunbrella® Sofa by Modway'
+[2026-08-22 16:01:31,666] INFO [classification:166] Successfully classified product #480 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:31,681] INFO [classification:51] Processing Product #481: 'Sojourn Outdoor Patio Sunbrella® Sofa by Modway'
+[2026-08-22 16:01:38,164] INFO [classification:166] Successfully classified product #481 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:38,188] INFO [classification:51] Processing Product #482: 'Sojourn Outdoor Patio Sunbrella® Sofa by Modway'
+[2026-08-22 16:01:44,253] INFO [classification:166] Successfully classified product #482 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:44,265] INFO [classification:51] Processing Product #483: 'Summon Outdoor Patio Fabric Sunbrella® Armchair by Modway'
+[2026-08-22 16:01:51,649] INFO [classification:166] Successfully classified product #483 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:51,677] INFO [classification:51] Processing Product #484: 'Summon Outdoor Patio Fabric Sunbrella® Armchair by Modway'
+[2026-08-22 16:01:57,261] INFO [classification:166] Successfully classified product #484 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:01:57,276] INFO [classification:51] Processing Product #485: 'Summon Outdoor Patio Fabric Sunbrella® Armchair by Modway'
+[2026-08-22 16:02:05,771] INFO [classification:166] Successfully classified product #485 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:02:05,798] INFO [classification:51] Processing Product #486: 'Summon Outdoor Patio Fabric Sunbrella® Armchair by Modway'
+[2026-08-22 16:02:12,753] INFO [classification:166] Successfully classified product #486 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:02:12,766] INFO [classification:51] Processing Product #487: 'Summon Outdoor Patio Fabric Sunbrella® Armchair by Modway'
+[2026-08-22 16:02:18,857] INFO [classification:166] Successfully classified product #487 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:02:18,868] INFO [classification:51] Processing Product #488: 'Summon Outdoor Patio Sunbrella® Loveseat by Modway'
+[2026-08-22 16:02:26,336] INFO [classification:166] Successfully classified product #488 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:02:26,371] INFO [classification:51] Processing Product #489: 'Summon Outdoor Patio Sunbrella® Loveseat by Modway'
+[2026-08-22 16:02:31,944] INFO [classification:166] Successfully classified product #489 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:02:31,956] INFO [classification:51] Processing Product #490: 'Summon Outdoor Patio Sunbrella® Loveseat by Modway'
+[2026-08-22 16:02:38,989] INFO [classification:166] Successfully classified product #490 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:02:39,016] INFO [classification:51] Processing Product #491: 'Summon Outdoor Patio Sunbrella® Loveseat by Modway'
+[2026-08-22 16:02:46,537] INFO [classification:166] Successfully classified product #491 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:02:46,568] INFO [classification:51] Processing Product #492: 'Summon Outdoor Patio Sunbrella® Armless by Modway'
+[2026-08-22 16:02:54,859] INFO [classification:166] Successfully classified product #492 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:02:54,888] INFO [classification:51] Processing Product #493: 'Summon Outdoor Patio Sunbrella® Armless by Modway'
+[2026-08-22 16:03:03,183] INFO [classification:166] Successfully classified product #493 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:03:03,205] INFO [classification:51] Processing Product #494: 'Summon Outdoor Patio Sunbrella® Armless by Modway'
+[2026-08-22 16:03:11,305] INFO [classification:166] Successfully classified product #494 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:03:11,331] INFO [classification:51] Processing Product #495: 'Summon Outdoor Patio Sunbrella® Armless by Modway'
+[2026-08-22 16:03:18,897] INFO [classification:166] Successfully classified product #495 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:03:18,926] INFO [classification:51] Processing Product #496: 'Summon Outdoor Patio Sunbrella® Armless by Modway'
+[2026-08-22 16:03:27,275] INFO [classification:166] Successfully classified product #496 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:03:27,300] INFO [classification:51] Processing Product #497: 'Summon Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 16:03:35,512] INFO [classification:166] Successfully classified product #497 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:03:35,536] INFO [classification:51] Processing Product #498: 'Summon Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 16:03:43,432] INFO [classification:166] Successfully classified product #498 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:03:43,459] INFO [classification:51] Processing Product #499: 'Summon Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 16:03:51,233] INFO [classification:166] Successfully classified product #499 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:03:51,254] INFO [classification:51] Processing Product #500: 'Summon Outdoor Patio Sunbrella® Ottoman by Modway'
+[2026-08-22 16:03:59,262] INFO [classification:166] Successfully classified product #500 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:03:59,284] INFO [classification:51] Processing Product #501: 'Summon Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:04:07,873] INFO [classification:166] Successfully classified product #501 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:04:07,907] INFO [classification:51] Processing Product #502: 'Summon Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:04:16,143] INFO [classification:166] Successfully classified product #502 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:04:16,168] INFO [classification:51] Processing Product #503: 'Summon Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:04:38,260] INFO [classification:166] Successfully classified product #503 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:04:38,288] INFO [classification:51] Processing Product #504: 'Summon Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:04:46,037] INFO [classification:166] Successfully classified product #504 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:04:46,063] INFO [classification:51] Processing Product #505: 'Summon Outdoor Patio Sunbrella® Corner by Modway'
+[2026-08-22 16:04:54,537] INFO [classification:166] Successfully classified product #505 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:04:54,568] INFO [classification:51] Processing Product #506: 'Summon Outdoor Patio Sunbrella® Right Arm Loveseat by Modway'
+[2026-08-22 16:05:02,186] INFO [classification:166] Successfully classified product #506 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:05:02,207] INFO [classification:51] Processing Product #507: 'Summon Outdoor Patio Sunbrella® Right Arm Loveseat by Modway'
+[2026-08-22 16:05:09,308] INFO [classification:166] Successfully classified product #507 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:05:09,335] INFO [classification:51] Processing Product #508: 'Summon Outdoor Patio Sunbrella® Right Arm Loveseat by Modway'
+[2026-08-22 16:05:16,341] INFO [classification:166] Successfully classified product #508 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:05:16,369] INFO [classification:51] Processing Product #509: 'Summon Outdoor Patio Sunbrella® Right Arm Loveseat by Modway'
+[2026-08-22 16:05:24,188] INFO [classification:166] Successfully classified product #509 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:05:24,214] INFO [classification:51] Processing Product #510: 'Summon Outdoor Patio Sunbrella® Left Arm Loveseat by Modway'
+[2026-08-22 16:05:31,894] INFO [classification:166] Successfully classified product #510 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:05:31,914] INFO [classification:51] Processing Product #511: 'Summon Outdoor Patio Sunbrella® Left Arm Loveseat by Modway'
+[2026-08-22 16:05:39,638] INFO [classification:166] Successfully classified product #511 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:05:39,665] INFO [classification:51] Processing Product #512: 'Summon Outdoor Patio Sunbrella® Right Arm Chaise by Modway'
+[2026-08-22 16:05:46,654] INFO [classification:166] Successfully classified product #512 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:05:46,689] INFO [classification:51] Processing Product #513: 'Summon Outdoor Patio Sunbrella® Right Arm Chaise by Modway'
+[2026-08-22 16:05:53,658] INFO [classification:166] Successfully classified product #513 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:05:53,677] INFO [classification:51] Processing Product #514: 'Summon Outdoor Patio Sunbrella® Sofa by Modway'
+[2026-08-22 16:06:00,628] INFO [classification:166] Successfully classified product #514 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:00,654] INFO [classification:51] Processing Product #515: 'Summon Outdoor Patio Sunbrella® Sofa by Modway'
+[2026-08-22 16:06:07,361] INFO [classification:166] Successfully classified product #515 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:07,395] INFO [classification:51] Processing Product #516: 'Summon Outdoor Patio Sunbrella® Sofa by Modway'
+[2026-08-22 16:06:14,161] INFO [classification:166] Successfully classified product #516 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:14,194] INFO [classification:51] Processing Product #517: 'Summon Outdoor Patio Sunbrella® Square Ottoman by Modway'
+[2026-08-22 16:06:21,767] INFO [classification:166] Successfully classified product #517 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:21,788] INFO [classification:51] Processing Product #518: 'Summon Outdoor Patio Sunbrella® Chaise Lounge by Modway'
+[2026-08-22 16:06:28,462] INFO [classification:166] Successfully classified product #518 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:28,491] INFO [classification:51] Processing Product #519: 'Summon Outdoor Patio Sunbrella® Chaise Lounge by Modway'
+[2026-08-22 16:06:35,104] INFO [classification:166] Successfully classified product #519 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:35,134] INFO [classification:51] Processing Product #520: 'Summon Outdoor Patio Sunbrella® Rectangle Ottoman by Modway'
+[2026-08-22 16:06:41,887] INFO [classification:166] Successfully classified product #520 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:41,908] INFO [classification:51] Processing Product #521: 'Summon Outdoor Patio Sunbrella® Rectangle Ottoman by Modway'
+[2026-08-22 16:06:48,436] INFO [classification:166] Successfully classified product #521 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:48,458] INFO [classification:51] Processing Product #522: 'Summon Outdoor Patio Sunbrella® Rectangle Ottoman by Modway'
+[2026-08-22 16:06:55,269] INFO [classification:166] Successfully classified product #522 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:06:55,296] INFO [classification:51] Processing Product #523: 'Sojourn 5 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:01,530] INFO [classification:166] Successfully classified product #523 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:01,550] INFO [classification:51] Processing Product #524: 'Sojourn 3 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:08,367] INFO [classification:166] Successfully classified product #524 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:08,387] INFO [classification:51] Processing Product #525: 'Sojourn 3 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:14,843] INFO [classification:166] Successfully classified product #525 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:14,874] INFO [classification:51] Processing Product #526: 'Sojourn 3 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:21,355] INFO [classification:166] Successfully classified product #526 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:21,381] INFO [classification:51] Processing Product #527: 'Sojourn 3 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:27,754] INFO [classification:166] Successfully classified product #527 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:27,785] INFO [classification:51] Processing Product #528: 'Summon 5 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:34,361] INFO [classification:166] Successfully classified product #528 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:34,393] INFO [classification:51] Processing Product #529: 'Summon 5 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:40,778] INFO [classification:166] Successfully classified product #529 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:40,804] INFO [classification:51] Processing Product #530: 'Summon 3 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:47,219] INFO [classification:166] Successfully classified product #530 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:47,246] INFO [classification:51] Processing Product #531: 'Summon 3 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:07:53,714] INFO [classification:166] Successfully classified product #531 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:07:53,739] INFO [classification:51] Processing Product #532: 'Summon 3 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:08:00,430] INFO [classification:166] Successfully classified product #532 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:08:00,458] INFO [classification:51] Processing Product #533: 'Summon 3 Piece Outdoor Patio Sunbrella® Sectional Set by Modway'
+[2026-08-22 16:08:07,195] INFO [classification:166] Successfully classified product #533 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:08:07,229] INFO [classification:51] Processing Product #534: 'Convene Outdoor Patio Armchair by Modway'
+[2026-08-22 16:08:15,855] INFO [classification:166] Successfully classified product #534 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:08:15,885] INFO [classification:51] Processing Product #535: 'Convene Outdoor Patio Armchair by Modway'
+[2026-08-22 16:08:24,070] INFO [classification:166] Successfully classified product #535 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:08:24,096] INFO [classification:51] Processing Product #536: 'Convene Outdoor Patio Armchair by Modway'
+[2026-08-22 16:08:32,522] INFO [classification:166] Successfully classified product #536 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:08:32,546] INFO [classification:51] Processing Product #537: 'Convene Outdoor Patio Armchair by Modway'
+[2026-08-22 16:08:40,870] INFO [classification:166] Successfully classified product #537 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:08:40,891] INFO [classification:51] Processing Product #538: 'Convene Outdoor Patio Armchair by Modway'
+[2026-08-22 16:08:48,725] INFO [classification:166] Successfully classified product #538 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:08:48,755] INFO [classification:51] Processing Product #539: 'Convene Outdoor Patio Loveseat by Modway'
+[2026-08-22 16:08:56,435] INFO [classification:166] Successfully classified product #539 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:08:56,468] INFO [classification:51] Processing Product #540: 'Convene Outdoor Patio Loveseat by Modway'
+[2026-08-22 16:09:03,946] INFO [classification:166] Successfully classified product #540 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:09:03,978] INFO [classification:51] Processing Product #541: 'Convene Outdoor Patio Loveseat by Modway'
+[2026-08-22 16:09:11,341] INFO [classification:166] Successfully classified product #541 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:09:11,362] INFO [classification:51] Processing Product #542: 'Convene Outdoor Patio Loveseat by Modway'
+[2026-08-22 16:09:18,736] INFO [classification:166] Successfully classified product #542 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:09:18,762] INFO [classification:51] Processing Product #543: 'Convene Outdoor Patio Loveseat by Modway'
+[2026-08-22 16:09:26,177] INFO [classification:166] Successfully classified product #543 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:09:26,199] INFO [classification:51] Processing Product #544: 'Convene Outdoor Patio Loveseat by Modway'
+[2026-08-22 16:09:33,185] INFO [classification:166] Successfully classified product #544 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:09:33,206] INFO [classification:51] Processing Product #545: 'Convene Outdoor Patio Coffee Table by Modway'
+[2026-08-22 16:09:40,037] INFO [classification:166] Successfully classified product #545 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:09:40,065] INFO [classification:51] Processing Product #546: 'Convene Outdoor Patio Side Table by Modway'
+[2026-08-22 16:09:48,765] INFO [classification:166] Successfully classified product #546 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:09:48,793] INFO [classification:51] Processing Product #547: 'Convene Outdoor Patio Armless by Modway'
+[2026-08-22 16:09:58,345] INFO [classification:166] Successfully classified product #547 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:09:58,369] INFO [classification:51] Processing Product #548: 'Convene Outdoor Patio Armless by Modway'
+[2026-08-22 16:10:06,742] INFO [classification:166] Successfully classified product #548 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:10:06,766] INFO [classification:51] Processing Product #549: 'Convene Outdoor Patio Armless by Modway'
+[2026-08-22 16:10:15,223] INFO [classification:166] Successfully classified product #549 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:10:15,250] INFO [classification:51] Processing Product #550: 'Convene Outdoor Patio Armless by Modway'
+[2026-08-22 16:10:23,909] INFO [classification:166] Successfully classified product #550 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:10:23,932] INFO [classification:51] Processing Product #551: 'Convene Outdoor Patio Armless by Modway'
+[2026-08-22 16:10:31,288] INFO [classification:166] Successfully classified product #551 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:10:31,319] INFO [classification:51] Processing Product #552: 'Convene Outdoor Patio Fabric Square Ottoman by Modway'
+[2026-08-22 16:10:39,375] INFO [classification:166] Successfully classified product #552 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:10:39,409] INFO [classification:51] Processing Product #553: 'Convene Outdoor Patio Fabric Square Ottoman by Modway'
+[2026-08-22 16:10:47,186] INFO [classification:166] Successfully classified product #553 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:10:47,206] INFO [classification:51] Processing Product #554: 'Convene Outdoor Patio Fabric Square Ottoman by Modway'
+[2026-08-22 16:10:54,924] INFO [classification:166] Successfully classified product #554 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:10:54,953] INFO [classification:51] Processing Product #555: 'Convene Outdoor Patio Fabric Square Ottoman by Modway'
+[2026-08-22 16:11:02,994] INFO [classification:166] Successfully classified product #555 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:11:03,030] INFO [classification:51] Processing Product #556: 'Convene Outdoor Patio Fabric Square Ottoman by Modway'
+[2026-08-22 16:11:10,895] INFO [classification:166] Successfully classified product #556 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:11:10,916] INFO [classification:51] Processing Product #557: 'Convene Outdoor Patio Fabric Square Ottoman by Modway'
+[2026-08-22 16:11:18,224] INFO [classification:166] Successfully classified product #557 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:11:18,248] INFO [classification:51] Processing Product #558: 'Convene Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 16:11:26,165] INFO [classification:166] Successfully classified product #558 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:11:26,184] INFO [classification:51] Processing Product #559: 'Convene Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 16:11:33,470] INFO [classification:166] Successfully classified product #559 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:11:33,494] INFO [classification:51] Processing Product #560: 'Convene Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 16:11:41,290] INFO [classification:166] Successfully classified product #560 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:11:41,312] INFO [classification:51] Processing Product #561: 'Convene Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 16:11:49,161] INFO [classification:166] Successfully classified product #561 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:11:49,188] INFO [classification:51] Processing Product #562: 'Convene Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 16:11:56,912] INFO [classification:166] Successfully classified product #562 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:11:56,935] INFO [classification:51] Processing Product #563: 'Convene Dining Outdoor Patio Armchair by Modway'
+[2026-08-22 16:12:04,157] INFO [classification:166] Successfully classified product #563 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:04,178] INFO [classification:51] Processing Product #564: 'Convene 114" Outdoor Patio Dining Table by Modway'
+[2026-08-22 16:12:10,031] INFO [classification:166] Successfully classified product #564 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:10,063] INFO [classification:51] Processing Product #565: 'Convene 90" Outdoor Patio Dining Table by Modway'
+[2026-08-22 16:12:15,916] INFO [classification:166] Successfully classified product #565 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:15,937] INFO [classification:51] Processing Product #566: 'Sojourn 82" Outdoor Patio Dining Table by Modway'
+[2026-08-22 16:12:22,098] INFO [classification:166] Successfully classified product #566 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:22,130] INFO [classification:51] Processing Product #567: 'Sojourn 90" Outdoor Patio Dining Table by Modway'
+[2026-08-22 16:12:27,943] INFO [classification:166] Successfully classified product #567 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:27,972] INFO [classification:51] Processing Product #568: 'Summon Dining Outdoor Patio Sunbrella® Armchair by Modway'
+[2026-08-22 16:12:35,763] INFO [classification:166] Successfully classified product #568 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:35,784] INFO [classification:51] Processing Product #569: 'Summon Dining Outdoor Patio Sunbrella® Armchair by Modway'
+[2026-08-22 16:12:43,690] INFO [classification:166] Successfully classified product #569 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:43,712] INFO [classification:51] Processing Product #570: 'Summon Dining Outdoor Patio Sunbrella® Armchair by Modway'
+[2026-08-22 16:12:51,506] INFO [classification:166] Successfully classified product #570 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:51,532] INFO [classification:51] Processing Product #571: 'Summon Dining Outdoor Patio Sunbrella® Armchair by Modway'
+[2026-08-22 16:12:59,382] INFO [classification:166] Successfully classified product #571 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:12:59,404] INFO [classification:51] Processing Product #572: 'Summon Dining Outdoor Patio Sunbrella® Armchair by Modway'
+[2026-08-22 16:13:05,622] INFO [classification:166] Successfully classified product #572 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:13:05,632] INFO [classification:51] Processing Product #573: 'Summon 90" Outdoor Patio Dining Table by Modway'
+[2026-08-22 16:13:10,150] INFO [classification:166] Successfully classified product #573 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:13:10,160] INFO [classification:51] Processing Product #574: 'Sojourn 9 Piece Outdoor Patio Sunbrella® Dining Set by Modway'
+[2026-08-22 16:13:15,123] INFO [classification:166] Successfully classified product #574 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:13:15,134] INFO [classification:51] Processing Product #575: 'Sojourn 9 Piece Outdoor Patio Sunbrella® Dining Set by Modway'
+[2026-08-22 16:13:19,928] INFO [classification:166] Successfully classified product #575 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:13:19,940] INFO [classification:51] Processing Product #576: 'Sojourn 9 Piece Outdoor Patio Sunbrella® Dining Set by Modway'
+[2026-08-22 16:13:24,708] INFO [classification:166] Successfully classified product #576 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:13:24,718] INFO [classification:51] Processing Product #577: 'Sojourn 9 Piece Outdoor Patio Sunbrella® Dining Set by Modway'
+[2026-08-22 16:13:29,719] INFO [classification:166] Successfully classified product #577 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:13:29,728] INFO [classification:51] Processing Product #578: 'Summon 9 Piece Outdoor Patio Sunbrella® Dining Set by Modway'
+[2026-08-22 16:13:34,958] INFO [classification:166] Successfully classified product #578 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:13:34,967] INFO [classification:51] Processing Product #579: 'Summon 9 Piece Outdoor Patio Sunbrella® Dining Set by Modway'
+[2026-08-22 16:13:40,006] INFO [classification:166] Successfully classified product #579 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:13:40,017] INFO [classification:51] Processing Product #580: 'Summon 9 Piece Outdoor Patio Sunbrella® Dining Set by Modway'
+[2026-08-22 16:14:14,993] INFO [classification:166] Successfully classified product #580 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:15,005] INFO [classification:51] Processing Product #581: 'Summon 9 Piece Outdoor Patio Sunbrella® Dining Set by Modway'
+[2026-08-22 16:14:20,147] INFO [classification:166] Successfully classified product #581 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:20,157] INFO [classification:51] Processing Product #582: 'Convene Large Outdoor Patio Bar Table by Modway'
+[2026-08-22 16:14:24,593] INFO [classification:166] Successfully classified product #582 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:24,604] INFO [classification:51] Processing Product #583: 'Convene Small Outdoor Patio Bar Table by Modway'
+[2026-08-22 16:14:29,275] INFO [classification:166] Successfully classified product #583 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:29,283] INFO [classification:51] Processing Product #584: 'Sojourn Small Outdoor Patio Bar Table by Modway'
+[2026-08-22 16:14:33,907] INFO [classification:166] Successfully classified product #584 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:33,917] INFO [classification:51] Processing Product #585: 'Sojourn Round Outdoor Patio Side Table by Modway'
+[2026-08-22 16:14:39,267] INFO [classification:166] Successfully classified product #585 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:39,280] INFO [classification:51] Processing Product #586: 'Sojourn Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:14:44,036] INFO [classification:166] Successfully classified product #586 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:44,048] INFO [classification:51] Processing Product #587: 'Sojourn Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:14:49,010] INFO [classification:166] Successfully classified product #587 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:49,025] INFO [classification:51] Processing Product #588: 'Sojourn Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:14:54,385] INFO [classification:166] Successfully classified product #588 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:54,403] INFO [classification:51] Processing Product #589: 'Sojourn Outdoor Patio Sunbrella® Double Chaise by Modway'
+[2026-08-22 16:14:58,949] INFO [classification:166] Successfully classified product #589 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:14:58,963] INFO [classification:51] Processing Product #590: 'Sojourn Outdoor Patio Sunbrella® Double Chaise by Modway'
+[2026-08-22 16:15:03,619] INFO [classification:166] Successfully classified product #590 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:03,631] INFO [classification:51] Processing Product #591: 'Sojourn Outdoor Patio Sunbrella® Double Chaise by Modway'
+[2026-08-22 16:15:09,336] INFO [classification:166] Successfully classified product #591 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:09,364] INFO [classification:51] Processing Product #592: 'Sojourn Outdoor Patio Sunbrella® Double Chaise by Modway'
+[2026-08-22 16:15:15,654] INFO [classification:166] Successfully classified product #592 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:15,678] INFO [classification:51] Processing Product #593: 'Sojourn Outdoor Patio Sunbrella® Double Chaise by Modway'
+[2026-08-22 16:15:21,981] INFO [classification:166] Successfully classified product #593 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:21,999] INFO [classification:51] Processing Product #594: 'Sojourn Outdoor Patio Sunbrella® Chaise by Modway'
+[2026-08-22 16:15:26,301] INFO [classification:166] Successfully classified product #594 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:26,312] INFO [classification:51] Processing Product #595: 'Sojourn Outdoor Patio Sunbrella® Chaise by Modway'
+[2026-08-22 16:15:30,551] INFO [classification:166] Successfully classified product #595 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:30,561] INFO [classification:51] Processing Product #596: 'Sojourn Outdoor Patio Sunbrella® Chaise by Modway'
+[2026-08-22 16:15:34,751] INFO [classification:166] Successfully classified product #596 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:34,763] INFO [classification:51] Processing Product #597: 'Sojourn Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:15:39,706] INFO [classification:166] Successfully classified product #597 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:39,721] INFO [classification:51] Processing Product #598: 'Sojourn Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:15:44,589] INFO [classification:166] Successfully classified product #598 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:44,602] INFO [classification:51] Processing Product #599: 'Sojourn Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:15:49,418] INFO [classification:166] Successfully classified product #599 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:49,430] INFO [classification:51] Processing Product #600: 'Sojourn Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:15:54,302] INFO [classification:166] Successfully classified product #600 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:54,320] INFO [classification:51] Processing Product #601: 'Summon Outdoor Patio Sunbrella® Chaise by Modway'
+[2026-08-22 16:15:58,881] INFO [classification:166] Successfully classified product #601 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:15:58,893] INFO [classification:51] Processing Product #602: 'Summon Canopy Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:16:04,100] INFO [classification:166] Successfully classified product #602 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:04,118] INFO [classification:51] Processing Product #603: 'Summon Canopy Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:16:08,880] INFO [classification:166] Successfully classified product #603 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:08,892] INFO [classification:51] Processing Product #604: 'Summon Canopy Outdoor Patio Sunbrella® Daybed by Modway'
+[2026-08-22 16:16:14,302] INFO [classification:166] Successfully classified product #604 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:14,313] INFO [classification:51] Processing Product #605: 'Convene 2 Piece Outdoor Patio Pillow Set by Modway'
+[2026-08-22 16:16:19,000] INFO [classification:166] Successfully classified product #605 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:19,012] INFO [classification:51] Processing Product #606: 'Convene 2 Piece Outdoor Patio Pillow Set by Modway'
+[2026-08-22 16:16:23,775] INFO [classification:166] Successfully classified product #606 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:23,788] INFO [classification:51] Processing Product #607: 'Convene 2 Piece Outdoor Patio Pillow Set by Modway'
+[2026-08-22 16:16:28,118] INFO [classification:166] Successfully classified product #607 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:28,130] INFO [classification:51] Processing Product #608: 'Convene 2 Piece Outdoor Patio Pillow Set by Modway'
+[2026-08-22 16:16:35,835] INFO [classification:166] Successfully classified product #608 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:35,871] INFO [classification:51] Processing Product #609: 'Convene 2 Piece Outdoor Patio Pillow Set by Modway'
+[2026-08-22 16:16:43,015] INFO [classification:166] Successfully classified product #609 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:43,039] INFO [classification:51] Processing Product #610: 'Convene 2 Piece Outdoor Patio Pillow Set by Modway'
+[2026-08-22 16:16:51,202] INFO [classification:166] Successfully classified product #610 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:51,226] INFO [classification:51] Processing Product #611: 'Convene 2 Piece Outdoor Patio Pillow Set by Modway'
+[2026-08-22 16:16:57,590] INFO [classification:166] Successfully classified product #611 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:16:57,618] INFO [classification:51] Processing Product #612: 'Summon 2 Piece Outdoor Patio Sunbrella® Pillow Set by Modway'
+[2026-08-22 16:17:04,690] INFO [classification:166] Successfully classified product #612 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:17:04,711] INFO [classification:51] Processing Product #613: 'Summon 2 Piece Outdoor Patio Sunbrella® Pillow Set by Modway'
+[2026-08-22 16:17:09,918] INFO [classification:166] Successfully classified product #613 -> 'Furniture > Outdoor Furniture' (Confidence: 0.60)
+[2026-08-22 16:17:09,961] INFO [classification:51] Processing Product #614: 'Lippa 48" Oval Wood Dining Table by Modway'
+[2026-08-22 16:17:13,805] INFO [classification:166] Successfully classified product #614 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 16:17:13,827] INFO [classification:51] Processing Product #615: 'Lippa 48" Oval-Shaped Wood Coffee Table by Modway'
+[2026-08-22 16:17:17,299] INFO [classification:166] Successfully classified product #615 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:17:17,308] INFO [classification:51] Processing Product #616: 'Lippa 48" Oval Wood Dining Table by Modway'
+[2026-08-22 16:17:22,851] INFO [classification:166] Successfully classified product #616 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 16:17:22,866] INFO [classification:51] Processing Product #617: 'Lippa 48" Oval Wood Coffee Table by Modway'
+[2026-08-22 16:17:27,367] INFO [classification:166] Successfully classified product #617 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:17:27,381] INFO [classification:51] Processing Product #618: 'Lippa 48" Oval Faux Marble Dining Table by Modway'
+[2026-08-22 16:17:30,782] INFO [classification:166] Successfully classified product #618 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 16:17:30,797] INFO [classification:51] Processing Product #619: 'Lippa 48" Oval Faux Marble Coffee Table by Modway'
+[2026-08-22 16:17:34,128] INFO [classification:166] Successfully classified product #619 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:17:34,137] INFO [classification:51] Processing Product #620: 'Promenade Bamboo Side Chair by Modway'
+[2026-08-22 16:17:38,447] INFO [classification:166] Successfully classified product #620 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 16:17:38,457] INFO [classification:51] Processing Product #621: 'Promenade Dining Chair by Modway'
+[2026-08-22 16:17:43,085] INFO [classification:166] Successfully classified product #621 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 16:17:43,095] INFO [classification:51] Processing Product #622: 'Promenade Backless Bar Stool by Modway'
+[2026-08-22 16:17:47,502] INFO [classification:166] Successfully classified product #622 -> 'Home & Garden > Kitchen & Dining' (Confidence: 0.60)
+[2026-08-22 16:17:47,512] INFO [classification:51] Processing Product #623: 'Loft Upholstered Fabric Armchair by Modway'
+[2026-08-22 16:17:53,970] INFO [classification:166] Successfully classified product #623 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:17:53,984] INFO [classification:51] Processing Product #624: 'Loft Upholstered Fabric Armchair by Modway'
+[2026-08-22 16:17:59,493] INFO [classification:166] Successfully classified product #624 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:17:59,504] INFO [classification:51] Processing Product #625: 'Loft Upholstered Fabric Loveseat by Modway'
+[2026-08-22 16:18:05,061] INFO [classification:166] Successfully classified product #625 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:18:05,070] INFO [classification:51] Processing Product #626: 'Loft Upholstered Fabric Loveseat by Modway'
+[2026-08-22 16:18:09,935] INFO [classification:166] Successfully classified product #626 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:18:09,949] INFO [classification:51] Processing Product #627: 'Loft Upholstered Fabric Loveseat by Modway'
+[2026-08-22 16:18:18,486] INFO [classification:166] Successfully classified product #627 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:18:18,495] INFO [classification:51] Processing Product #628: 'Edge All Mesh Office Chair by Modway'
+[2026-08-22 16:18:23,156] INFO [classification:166] Successfully classified product #628 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 16:18:23,169] INFO [classification:51] Processing Product #629: 'Seg Vegan Leather Accent Chair by Modway'
+[2026-08-22 16:18:27,832] INFO [classification:166] Successfully classified product #629 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:18:27,843] INFO [classification:51] Processing Product #630: 'Reach Upholstered Fabric Ottoman by Modway'
+[2026-08-22 16:18:32,396] INFO [classification:166] Successfully classified product #630 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:18:32,409] INFO [classification:51] Processing Product #631: 'Pipe 47" Stainless Steel Bench by Modway'
+[2026-08-22 16:18:36,407] INFO [classification:166] Successfully classified product #631 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:18:36,423] INFO [classification:51] Processing Product #632: 'Pipe 60" Stainless Steel Bench by Modway'
+[2026-08-22 16:18:40,254] INFO [classification:166] Successfully classified product #632 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:18:40,264] INFO [classification:51] Processing Product #633: 'Trebuchet Chandelier by Modway'
+[2026-08-22 16:18:50,032] INFO [classification:166] Successfully classified product #633 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 16:18:50,044] INFO [classification:51] Processing Product #634: 'Attainment Office Chair by Modway'
+[2026-08-22 16:18:54,700] INFO [classification:166] Successfully classified product #634 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 16:18:54,713] INFO [classification:51] Processing Product #635: 'Attainment Office Chair by Modway'
+[2026-08-22 16:18:59,156] INFO [classification:166] Successfully classified product #635 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 16:18:59,166] INFO [classification:51] Processing Product #636: 'Attainment Office Chair by Modway'
+[2026-08-22 16:19:03,739] INFO [classification:166] Successfully classified product #636 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 16:19:03,751] INFO [classification:51] Processing Product #637: 'Attainment Office Chair by Modway'
+[2026-08-22 16:19:08,355] INFO [classification:166] Successfully classified product #637 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 16:19:08,364] INFO [classification:51] Processing Product #638: 'Atom Chandelier by Modway'
+[2026-08-22 16:19:12,423] INFO [classification:166] Successfully classified product #638 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 16:19:12,431] INFO [classification:51] Processing Product #639: 'Prosperity Chandelier by Modway'
+[2026-08-22 16:19:16,804] INFO [classification:166] Successfully classified product #639 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 16:19:16,819] INFO [classification:51] Processing Product #640: 'Prosperity Chandelier by Modway'
+[2026-08-22 16:19:21,761] INFO [classification:166] Successfully classified product #640 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 16:19:21,771] INFO [classification:51] Processing Product #641: 'Teleport 43" Chandelier by Modway'
+[2026-08-22 16:19:25,821] INFO [classification:166] Successfully classified product #641 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 16:19:25,833] INFO [classification:51] Processing Product #642: 'Teleport 52" Chandelier by Modway'
+[2026-08-22 16:19:30,052] INFO [classification:166] Successfully classified product #642 -> 'Home & Garden > Lighting' (Confidence: 0.60)
+[2026-08-22 16:19:30,067] INFO [classification:51] Processing Product #643: 'Engage Right-Facing Upholstered Fabric Sectional Sofa by Modway'
+[2026-08-22 16:19:34,205] INFO [classification:166] Successfully classified product #643 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:19:34,217] INFO [classification:51] Processing Product #644: 'Engage Right-Facing Upholstered Fabric Sectional Sofa by Modway'
+[2026-08-22 16:19:38,567] INFO [classification:166] Successfully classified product #644 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:19:38,576] INFO [classification:51] Processing Product #645: 'Engage Right-Facing Upholstered Fabric Sectional Sofa by Modway'
+[2026-08-22 16:19:42,640] INFO [classification:166] Successfully classified product #645 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:19:42,654] INFO [classification:51] Processing Product #646: 'Edge Drafting Chair by Modway'
+[2026-08-22 16:19:47,094] INFO [classification:166] Successfully classified product #646 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 16:19:47,110] INFO [classification:51] Processing Product #647: 'Edge Drafting Chair by Modway'
+[2026-08-22 16:19:51,576] INFO [classification:166] Successfully classified product #647 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 16:19:51,587] INFO [classification:51] Processing Product #648: 'Edge Drafting Chair by Modway'
+[2026-08-22 16:19:55,780] INFO [classification:166] Successfully classified product #648 -> 'Furniture > Office Furniture' (Confidence: 0.60)
+[2026-08-22 16:19:55,789] INFO [classification:51] Processing Product #649: 'Verve Upholstered Fabric Sofa by Modway'
+[2026-08-22 16:20:00,460] INFO [classification:166] Successfully classified product #649 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:00,468] INFO [classification:51] Processing Product #650: 'Coast Upholstered Fabric Armchair by Modway'
+[2026-08-22 16:20:07,237] INFO [classification:166] Successfully classified product #650 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:07,249] INFO [classification:51] Processing Product #651: 'Coast Upholstered Fabric Armchair by Modway'
+[2026-08-22 16:20:13,037] INFO [classification:166] Successfully classified product #651 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:13,046] INFO [classification:51] Processing Product #652: 'Coast Upholstered Fabric Sofa by Modway'
+[2026-08-22 16:20:17,725] INFO [classification:166] Successfully classified product #652 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:17,740] INFO [classification:51] Processing Product #653: 'Coast Upholstered Fabric Sofa by Modway'
+[2026-08-22 16:20:22,297] INFO [classification:166] Successfully classified product #653 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:22,306] INFO [classification:51] Processing Product #654: 'Slide Upholstered Fabric Armchair by Modway'
+[2026-08-22 16:20:28,010] INFO [classification:166] Successfully classified product #654 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:28,019] INFO [classification:51] Processing Product #655: 'Slide Upholstered Fabric Armchair by Modway'
+[2026-08-22 16:20:34,511] INFO [classification:166] Successfully classified product #655 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:34,521] INFO [classification:51] Processing Product #656: 'Slide Upholstered Fabric Armchair by Modway'
+[2026-08-22 16:20:40,811] INFO [classification:166] Successfully classified product #656 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:40,820] INFO [classification:51] Processing Product #657: 'Serve Upholstered Fabric Armchair by Modway'
+[2026-08-22 16:20:46,794] INFO [classification:166] Successfully classified product #657 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:46,811] INFO [classification:51] Processing Product #658: 'Ramp Upholstered Fabric Lounge Chair Set by Modway'
+[2026-08-22 16:20:52,077] INFO [classification:166] Successfully classified product #658 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:52,089] INFO [classification:51] Processing Product #659: 'Ramp Upholstered Fabric Lounge Chair Set by Modway'
+[2026-08-22 16:20:56,813] INFO [classification:166] Successfully classified product #659 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:20:56,822] INFO [classification:51] Processing Product #660: 'Ramp Upholstered Fabric Lounge Chair Set by Modway'
+[2026-08-22 16:21:01,794] INFO [classification:166] Successfully classified product #660 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:21:01,802] INFO [classification:51] Processing Product #661: 'Navigate Upholstered Fabric Lounge Chair by Modway'
+[2026-08-22 16:21:07,515] INFO [classification:166] Successfully classified product #661 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:21:07,525] INFO [classification:51] Processing Product #662: 'Chart Upholstered Fabric Lounge Chair by Modway'
+[2026-08-22 16:21:13,064] INFO [classification:166] Successfully classified product #662 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:21:13,074] INFO [classification:51] Processing Product #663: 'Chart Upholstered Fabric Lounge Chair by Modway'
+[2026-08-22 16:21:18,449] INFO [classification:166] Successfully classified product #663 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:21:18,458] INFO [classification:51] Processing Product #664: 'Chart Upholstered Fabric Lounge Chair by Modway'
+[2026-08-22 16:21:24,145] INFO [classification:166] Successfully classified product #664 -> 'Furniture > Furniture Sets > Living Room Furniture Sets' (Confidence: 0.60)
+[2026-08-22 16:21:24,157] INFO [classification:51] Processing Product #665: 'Cabin Dining Side Chair by Modway'

@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container-fluid mt-4">
+    <div class="row">
+        <!-- Main Product Card -->
+        <div class="col-md-8">
+            <div class="card border-0 border-top border-primary border-2 rounded-0 shadow-sm mb-4">
+                <div class="card-header bg-white py-2 border-bottom d-flex justify-content-between align-items-center">
+                    <span class="fw-semibold small text-muted">Product Record</span>
+                    <span class="badge bg-secondary bg-opacity-10 text-secondary border border-secondary border-opacity-25">{{ product.status }}</span>
+                </div>
+                <div class="row g-0">
+                    <div class="col-md-3 p-3 d-flex align-items-start justify-content-center border-end">
+                        {% if product.image_1 %}
+                            <img src="{{ product.image_1 }}" class="img-fluid border" alt="{{ product.title }}">
+                        {% else %}
+                            <div class="bg-light text-muted w-100 d-flex align-items-center justify-content-center border" style="height: 150px;">
+                                <span class="small">No Image</span>
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title fw-semibold text-dark mb-1">{{ product.title }}</h5>
+                            <div class="text-muted small mb-3">Model: {{ product.model_number|default:"N/A" }} &nbsp;|&nbsp; ID: {{ product.product_number|default:"N/A" }}</div>
+                            
+                            <h6 class="mb-1 text-uppercase text-muted small fw-semibold">Description</h6>
+                            <div class="small text-dark mb-4 p-2 bg-light border rounded" style="max-height: 120px; overflow-y: auto;">
+                                {{ product.description|default:"No description provided." }}
+                            </div>
+                            
+                            {% if result %}
+                            <div class="mb-3 p-3 bg-primary bg-opacity-10 border border-primary border-opacity-25 rounded-1">
+                                <h6 class="mb-2 text-primary small fw-semibold">Classification Result</h6>
+                                <div class="d-flex align-items-center mb-1">
+                                    <span class="small text-muted me-2" style="width: 80px;">Category:</span>
+                                    <span class="fw-semibold text-dark">{{ result.predicted_category }}</span>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                    <span class="small text-muted me-2" style="width: 80px;">Confidence:</span>
+                                    {% if result.confidence_score >= 0.90 %}
+                                        <span class="badge bg-success bg-opacity-10 text-success border border-success border-opacity-25 rounded-1">{% widthratio result.confidence_score 1 100 %}%</span>
+                                    {% elif result.confidence_score >= 0.70 %}
+                                        <span class="badge bg-warning bg-opacity-10 text-warning border border-warning border-opacity-25 rounded-1">{% widthratio result.confidence_score 1 100 %}%</span>
+                                    {% else %}
+                                        <span class="badge bg-danger bg-opacity-10 text-danger border border-danger border-opacity-25 rounded-1">{% widthratio result.confidence_score 1 100 %}%</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% else %}
+                            <div class="alert alert-warning py-2 mb-3 small border border-warning border-opacity-25 rounded-1 text-dark">No classification result available.</div>
+                            {% endif %}
+
+                            <div class="d-flex gap-2 mt-4 pt-3 border-top">
+                                <form method="post" action="{% url 'approve_product' product.id %}" class="d-inline">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-sm btn-success px-3" {% if product.status == 'APPROVED' %}disabled{% endif %}>
+                                        Approve
+                                    </button>
+                                </form>
+                                <form method="post" action="{% url 'reject_product' product.id %}" class="d-inline">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-sm btn-danger px-3" {% if product.status == 'FAILED' %}disabled{% endif %}>
+                                        Reject
+                                    </button>
+                                </form>
+                                <a href="{% url 'review_queue' %}" class="btn btn-sm btn-link text-decoration-none ms-auto">
+                                    Back to Queue
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar for Attributes and Alternatives -->
+        <div class="col-md-4">
+            <div class="card border rounded-0 mb-4">
+                <div class="card-header bg-light py-2 border-bottom">
+                    <span class="fw-semibold small text-muted">Extracted Attributes</span>
+                </div>
+                <div class="card-body p-0">
+                    <ul class="list-group list-group-flush small">
+                        {% for attr in attributes %}
+                        <li class="list-group-item d-flex justify-content-between align-items-center py-2">
+                            <span class="text-muted">{{ attr.name }}</span>
+                            <span class="fw-semibold text-dark text-end" style="max-width: 60%;">{{ attr.value }}</span>
+                        </li>
+                        {% empty %}
+                        <li class="list-group-item text-muted text-center py-3">No attributes extracted.</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card border rounded-0">
+                <div class="card-header bg-light py-2 border-bottom">
+                    <span class="fw-semibold small text-muted">Alternative Categories</span>
+                </div>
+                <div class="card-body p-0">
+                    <ul class="list-group list-group-flush small">
+                        {% for alt in alternatives %}
+                        <li class="list-group-item py-2">
+                            <div class="fw-semibold text-dark text-wrap mb-1">{{ alt.category }}</div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div class="progress flex-grow-1" style="height: 4px;">
+                                    <div class="progress-bar {% if alt.confidence_score > 0.7 %}bg-success{% else %}bg-warning{% endif %}" 
+                                         role="progressbar" 
+                                         style="width: {% widthratio alt.confidence_score 1 100 %}%;"></div>
+                                </div>
+                                <span class="text-muted" style="font-size: 0.75rem;">{% widthratio alt.confidence_score 1 100 %}%</span>
+                            </div>
+                        </li>
+                        {% empty %}
+                        <li class="list-group-item text-muted text-center py-3">No alternatives found.</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
