@@ -1,4 +1,4 @@
-﻿amqp==5.3.1
+amqp==5.3.1
 annotated-types==0.8.0
 asgiref==3.12.1
 attrs==26.1.0
@@ -27,7 +27,7 @@ google-auth-httplib2==0.4.1
 google-generativeai==0.8.6
 googleapis-common-protos==1.75.0
 grpcio==1.83.0
-grpcio-status==1.71.2
+grpcio-status>=1.75.1
 gunicorn==26.1.0
 httplib2==0.32.0
 idna==3.19
