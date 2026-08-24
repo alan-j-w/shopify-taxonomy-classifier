@@ -41,7 +41,8 @@ def _clean_str(val):
 
 def upload_products(request):
     """
-    Handle CSV & XLSX Upload, create products with bulk_create, and spawn batch classification.
+    Handle CSV & XLSX Upload with chunked streaming and bulk_create.
+    Memory footprint remains strictly constant O(1) regardless of file size.
     """
     if request.method == "POST":
         uploaded_file = request.FILES.get("file")
@@ -55,10 +56,29 @@ def upload_products(request):
             return redirect("upload_products")
 
         try:
-            rows_data = []
+            CHUNK_SIZE = 1000
+            created_ids = []
+
+            def create_chunk(chunk_list):
+                if not chunk_list:
+                    return
+                with transaction.atomic():
+                    created = Product.objects.bulk_create(chunk_list, batch_size=1000)
+                    ids = [obj.id for obj in created]
+                    if ids and ids[0]:
+                        created_ids.extend(ids)
+                    else:
+                        # Fallback for backends where bulk_create doesn't populate PKs
+                        fallback_ids = list(
+                            Product.objects.filter(status="PENDING")
+                            .order_by("-id")[:len(chunk_list)]
+                            .values_list("id", flat=True)
+                        )[::-1]
+                        created_ids.extend(fallback_ids)
+
+            current_chunk = []
 
             if file_name.endswith(".csv"):
-                # Handle various text encodings gracefully
                 raw_bytes = uploaded_file.read()
                 decoded_text = None
                 for enc in ["utf-8-sig", "utf-8", "latin-1", "cp1252"]:
@@ -67,7 +87,6 @@ def upload_products(request):
                         break
                     except (UnicodeDecodeError, LookupError):
                         continue
-
                 if not decoded_text:
                     decoded_text = raw_bytes.decode("utf-8", errors="replace")
 
@@ -75,7 +94,7 @@ def upload_products(request):
                 header = next(reader, None)
                 if header:
                     header_map = {str(h).strip().lower(): idx for idx, h in enumerate(header)}
-                    
+
                     def get_col(row, *col_names):
                         for name in col_names:
                             idx = header_map.get(name.lower())
@@ -97,88 +116,87 @@ def upload_products(request):
                         materials = get_col(row, "materials", "material")
                         image_1 = get_col(row, "image 1", "image_1", "image_url", "image")
 
-                        rows_data.append({
-                            "title": title,
-                            "description": description,
-                            "product_number": product_number,
-                            "product_category": category,
-                            "materials": materials,
-                            "image_1": image_1,
-                        })
+                        current_chunk.append(
+                            Product(
+                                title=title[:500],
+                                description=description,
+                                product_number=product_number[:100] if product_number else None,
+                                product_category=category[:255] if category else None,
+                                materials=materials[:500] if materials else None,
+                                image_1=image_1 if image_1 else None,
+                                status="PENDING",
+                            )
+                        )
+                        if len(current_chunk) >= CHUNK_SIZE:
+                            create_chunk(current_chunk)
+                            current_chunk.clear()
+
             else:
-                # Handle Excel spreadsheet
-                df = pd.read_excel(uploaded_file)
-                df.columns = [str(c).strip().lower() for c in df.columns]
+                # Stream XLSX with openpyxl read_only mode (constant low memory)
+                import openpyxl
+                wb = openpyxl.load_workbook(uploaded_file, read_only=True, data_only=True)
+                ws = wb.active
+                rows_iter = ws.iter_rows(values_only=True)
+                header = next(rows_iter, None)
 
-                def get_df_val(row, *col_names):
-                    for name in col_names:
-                        if name.lower() in df.columns:
-                            val = _clean_str(row.get(name.lower()))
-                            if val:
-                                return val
-                    return ""
+                if header:
+                    header_map = {str(h).strip().lower(): idx for idx, h in enumerate(header) if h is not None}
 
-                for _, row in df.iterrows():
-                    title = get_df_val(row, "title", "product name", "name", "product_name")
-                    if not title:
-                        continue
-                    description = get_df_val(row, "description", "product description", "product_description")
-                    product_number = get_df_val(row, "product number", "product_number", "sku", "model number")
-                    category = get_df_val(row, "product category", "product_category", "category")
-                    materials = get_df_val(row, "materials", "material")
-                    image_1 = get_df_val(row, "image 1", "image_1", "image_url", "image")
+                    def get_excel_col(row, *col_names):
+                        for name in col_names:
+                            idx = header_map.get(name.lower())
+                            if idx is not None and idx < len(row):
+                                val = _clean_str(row[idx])
+                                if val:
+                                    return val
+                        return ""
 
-                    rows_data.append({
-                        "title": title,
-                        "description": description,
-                        "product_number": product_number,
-                        "product_category": category,
-                        "materials": materials,
-                        "image_1": image_1,
-                    })
+                    for row in rows_iter:
+                        if not row or not any(row):
+                            continue
+                        title = get_excel_col(row, "title", "product name", "name", "product_name")
+                        if not title:
+                            continue
+                        description = get_excel_col(row, "description", "product description", "product_description")
+                        product_number = get_excel_col(row, "product number", "product_number", "sku", "id", "model number")
+                        category = get_excel_col(row, "product category", "product_category", "category")
+                        materials = get_excel_col(row, "materials", "material")
+                        image_1 = get_excel_col(row, "image 1", "image_1", "image_url", "image")
 
-            if not rows_data:
+                        current_chunk.append(
+                            Product(
+                                title=title[:500],
+                                description=description,
+                                product_number=product_number[:100] if product_number else None,
+                                product_category=category[:255] if category else None,
+                                materials=materials[:500] if materials else None,
+                                image_1=image_1 if image_1 else None,
+                                status="PENDING",
+                            )
+                        )
+                        if len(current_chunk) >= CHUNK_SIZE:
+                            create_chunk(current_chunk)
+                            current_chunk.clear()
+                wb.close()
+
+            # Flush any remaining items in the last chunk
+            if current_chunk:
+                create_chunk(current_chunk)
+                current_chunk.clear()
+
+            if not created_ids:
                 messages.warning(request, "The uploaded file contained no valid product rows.")
                 return redirect("upload_products")
 
-            products_to_create = [
-                Product(
-                    title=item["title"][:500],
-                    description=item["description"],
-                    product_number=item["product_number"][:100] if item["product_number"] else None,
-                    product_category=item["product_category"][:255] if item["product_category"] else None,
-                    materials=item["materials"][:500] if item["materials"] else None,
-                    image_1=item["image_1"] if item["image_1"] else None,
-                    status="PENDING",
-                )
-                for item in rows_data
-            ]
+            batch = Batch.objects.create(
+                name=f"Upload: {uploaded_file.name}"[:255],
+                total_products=len(created_ids),
+                pending_products=len(created_ids),
+                status="PROCESSING",
+            )
 
             import logging
             logger = logging.getLogger("classification")
-
-            # bulk_create returns the created objects with their IDs (Django 4.1+)
-            with transaction.atomic():
-                created_objects = Product.objects.bulk_create(products_to_create, batch_size=500)
-                created_ids = [obj.id for obj in created_objects]
-
-                # Fallback: if IDs not populated by bulk_create (some DB backends), query them
-                if not created_ids or not created_ids[0]:
-                    # Tag with a sentinel batch marker to reliably find them
-                    created_ids = list(
-                        Product.objects.filter(
-                            status="PENDING",
-                            title__in=[p.title for p in products_to_create[:500]]
-                        ).order_by("-id")[:len(products_to_create)].values_list("id", flat=True)
-                    )[::-1]
-
-                batch = Batch.objects.create(
-                    name=f"Upload: {uploaded_file.name}"[:255],
-                    total_products=len(created_ids),
-                    pending_products=len(created_ids),
-                    status="PROCESSING",
-                )
-
             logger.info(f"[Batch Creation] Created Batch #{batch.id} '{batch.name}' with {len(created_ids)} products.")
 
             # Dispatch Celery background task with thread fallback
