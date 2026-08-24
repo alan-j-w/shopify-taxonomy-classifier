@@ -18,15 +18,15 @@
 
     <div class="card border rounded-0 mb-4">
         <div class="card-body p-4">
-            <p class="text-muted small mb-4">Import products in bulk via CSV to start a new classification batch.</p>
+            <p class="text-muted small mb-4">Import products in bulk via CSV or Excel (.xlsx/.xls) to start a new classification batch.</p>
 
             <form method="post" enctype="multipart/form-data" class="bg-light p-3 rounded-1 border mb-4">
                 {% csrf_token %}
                 <div class="mb-3">
-                    <label for="csvFile" class="form-label fw-semibold small">Select CSV File</label>
-                    <input class="form-control form-control-sm" type="file" id="csvFile" name="file" accept=".csv" required>
+                    <label for="catalogFile" class="form-label fw-semibold small">Select CSV or Excel File</label>
+                    <input class="form-control form-control-sm" type="file" id="catalogFile" name="file" accept=".csv,.xlsx,.xls" required>
                     <div class="form-text mt-2 small">
-                        <strong>Expected format:</strong> CSV with columns in order: <code>Title</code>, <code>Description</code>, <code>Product Number (Optional)</code>. The first row (headers) is skipped.
+                        <strong>Supported formats:</strong> <code>.csv</code>, <code>.xlsx</code>, <code>.xls</code>. Supported headers include <code>Title</code>, <code>Description</code>, <code>Product Number / SKU</code>, <code>Category</code>, <code>Materials</code>, <code>Image 1</code>.
                     </div>
                 </div>
                 

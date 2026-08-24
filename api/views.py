@@ -17,17 +17,22 @@ from .serializers import (
 
 
 class ProductListAPIView(generics.ListAPIView):
-    queryset = Product.objects.all().order_by("id")
+    queryset = Product.objects.prefetch_related("images").order_by("id")
     serializer_class = ProductSerializer
 
 
 class ProductDetailAPIView(generics.RetrieveAPIView):
-    queryset = Product.objects.all().order_by("id")
+    queryset = Product.objects.prefetch_related("images").order_by("id")
     serializer_class = ProductSerializer
 
 
 class ClassificationAPIView(generics.ListAPIView):
-    queryset = ClassificationResult.objects.all().order_by("-classified_at")
+    queryset = (
+        ClassificationResult.objects
+        .select_related("product", "predicted_category")
+        .prefetch_related("alternativecategory_set")
+        .order_by("-classified_at")
+    )
     serializer_class = ClassificationSerializer
 
 

@@ -42,27 +42,33 @@ def analyze_product_text(title, description=None, materials=None, category_hint=
         "IMPORTANT: Return ONLY a valid JSON object. Do not include markdown code blocks (no ```json or ```)."
     )
 
-    try:
-        response = model.generate_content(prompt)
-        response_text = response.text.strip()
+    import time
 
-        if response_text.startswith("```"):
-            lines = response_text.splitlines()
-            if lines[0].startswith("```"):
-                lines = lines[1:]
-            if lines and lines[-1].startswith("```"):
-                lines = lines[:-1]
-            response_text = "\n".join(lines).strip()
+    for attempt in range(2):
+        try:
+            response = model.generate_content(prompt)
+            response_text = response.text.strip()
 
-        return json.loads(response_text)
+            if response_text.startswith("```"):
+                lines = response_text.splitlines()
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines and lines[-1].startswith("```"):
+                    lines = lines[:-1]
+                response_text = "\n".join(lines).strip()
 
-    except Exception as e:
-        return {
-            "error": str(e),
-            "predicted_category": category_hint or "General Merchandise",
-            "product_type": sub_category_hint or "General Product",
-            "color": None,
-            "materials": materials,
-            "style": None,
-            "key_attributes": {}
-        }
+            return json.loads(response_text)
+
+        except Exception as e:
+            if attempt == 0 and "429" in str(e):
+                time.sleep(2.0)
+                continue
+            return {
+                "error": str(e),
+                "predicted_category": category_hint or "General Merchandise",
+                "product_type": sub_category_hint or "General Product",
+                "color": None,
+                "materials": materials,
+                "style": None,
+                "key_attributes": {}
+            }

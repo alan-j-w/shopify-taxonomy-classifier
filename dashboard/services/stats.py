@@ -1,45 +1,25 @@
+from django.db.models import Count, Q
 from products.models import Product
 from classification.models import Batch, ClassificationResult
 
 
-def get_total_products():
-    """Returns total number of products in the catalog."""
-    return Product.objects.count()
-
-
-def get_completed_products():
-    """Returns number of successfully classified products (including manually approved)."""
-    return Product.objects.filter(status__in=["COMPLETED", "APPROVED"]).count()
-
-
-def get_failed_products():
-    """Returns number of failed products."""
-    return Product.objects.filter(status="FAILED").count()
-
-
-def get_review_products():
-    """Returns number of products flagged for manual review."""
-    return Product.objects.filter(status="REVIEW").count()
-
-
-def get_pending_products():
-    """Returns number of products pending classification."""
-    return Product.objects.filter(status="PENDING").count()
-
-
-def get_processing_products():
-    """Returns number of products currently processing."""
-    return Product.objects.filter(status="PROCESSING").count()
-
-
 def get_dashboard_stats():
-    """Returns a consolidated dictionary of catalog and classification stats."""
-    total = get_total_products()
-    completed = get_completed_products()
-    failed = get_failed_products()
-    review = get_review_products()
-    pending = get_pending_products()
-    processing = get_processing_products()
+    """Returns a consolidated dictionary of catalog and classification stats via a single DB query."""
+    counts = Product.objects.aggregate(
+        total=Count("id"),
+        completed=Count("id", filter=Q(status__in=["COMPLETED", "APPROVED"])),
+        failed=Count("id", filter=Q(status="FAILED")),
+        review=Count("id", filter=Q(status="REVIEW")),
+        pending=Count("id", filter=Q(status="PENDING")),
+        processing=Count("id", filter=Q(status="PROCESSING")),
+    )
+
+    total = counts["total"] or 0
+    completed = counts["completed"] or 0
+    failed = counts["failed"] or 0
+    review = counts["review"] or 0
+    pending = counts["pending"] or 0
+    processing = counts["processing"] or 0
 
     completion_rate = round((completed / total * 100), 1) if total > 0 else 0.0
 
