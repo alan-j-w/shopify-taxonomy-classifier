@@ -9,7 +9,7 @@ from django.core.paginator import Paginator
 from django.views.decorators.http import require_POST
 
 from dashboard.services.stats import get_dashboard_stats
-from products.models import Product, ProductImage
+from products.models import Product
 from classification.models import (
     ClassificationResult,
     ProductAttribute,
@@ -20,8 +20,21 @@ from classification.tasks import process_batch
 
 
 def _clean_str(val):
-    if val is None or pd.isna(val):
+    """Safely convert any value (including pandas NA, NaN, None) to a clean string."""
+    if val is None:
         return ""
+    try:
+        import math
+        if isinstance(val, float) and math.isnan(val):
+            return ""
+    except (TypeError, ValueError):
+        pass
+    try:
+        import pandas as _pd
+        if _pd.isna(val):
+            return ""
+    except (TypeError, ValueError):
+        pass
     return str(val).strip()
 
 
