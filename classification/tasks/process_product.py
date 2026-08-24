@@ -81,7 +81,7 @@ def process_product(self, product_id, rate_limit_delay=1.0):
 
         # 3. Image Analysis
         image_result = None
-        img_source = product.image_1 or (product.images.first().image_url if product.images.exists() else None)
+        img_source = product.image_1
         if img_source:
             try:
                 image_result = analyze_product_image(img_source)

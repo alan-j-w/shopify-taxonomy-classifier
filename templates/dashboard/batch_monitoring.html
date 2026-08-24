@@ -55,12 +55,18 @@
                         </td>
                         <td class="align-middle text-end pe-3">
                             {% if batch.status != 'PROCESSING' %}
-                            <form method="post" action="{% url 'delete_batch' batch.id %}" class="d-inline" onsubmit="return confirm('Are you sure you want to delete Batch #{{ batch.id }}?');">
-                                {% csrf_token %}
-                                <button type="submit" class="btn btn-outline-danger btn-sm py-0 px-2 rounded-1" style="font-size: 0.75rem;">Delete</button>
-                            </form>
+                                {% if batch.status == 'FAILED' or batch.pending_products > 0 %}
+                                <form method="post" action="{% url 'resume_batch' batch.id %}" class="d-inline me-1">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-outline-primary btn-sm py-0 px-2 rounded-1" style="font-size: 0.75rem;">Retry</button>
+                                </form>
+                                {% endif %}
+                                <form method="post" action="{% url 'delete_batch' batch.id %}" class="d-inline" onsubmit="return confirm('Are you sure you want to delete Batch #{{ batch.id }}?');">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-outline-danger btn-sm py-0 px-2 rounded-1" style="font-size: 0.75rem;">Delete</button>
+                                </form>
                             {% else %}
-                            <span class="text-muted small" style="font-size: 0.75rem;">Active</span>
+                                <span class="badge bg-primary bg-opacity-10 text-primary border border-primary border-opacity-25 rounded-1 small" style="font-size: 0.75rem;">Active</span>
                             {% endif %}
                         </td>
                     </tr>

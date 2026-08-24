@@ -355,7 +355,7 @@ def batch_monitoring(request):
 
 
 def product_detail(request, product_id):
-    product = get_object_or_404(Product.objects.prefetch_related("images"), id=product_id)
+    product = get_object_or_404(Product, id=product_id)
     result = ClassificationResult.objects.filter(product=product).select_related("predicted_category").first()
     attributes = ProductAttribute.objects.filter(classification=result).select_related("attribute") if result else []
     alternatives = AlternativeCategory.objects.filter(classification=result).select_related("category") if result else []
@@ -398,4 +398,29 @@ def delete_batch(request, batch_id):
     batch_name = batch.name or f"Batch #{batch.id}"
     batch.delete()
     messages.success(request, f"Successfully deleted {batch_name}.")
+    return redirect("batch_monitoring")
+
+
+@require_POST
+def resume_batch(request, batch_id):
+    batch = get_object_or_404(Batch, id=batch_id)
+    if batch.status == "PROCESSING":
+        messages.info(request, f"Batch #{batch.id} is already actively processing.")
+        return redirect("batch_monitoring")
+
+    batch.status = "PROCESSING"
+    batch.save(update_fields=["status"])
+
+    import logging
+    logger = logging.getLogger("classification")
+
+    try:
+        process_batch.delay(batch.id, is_resume=True)
+        logger.info(f"[Batch Resume] Dispatched Celery task for Batch #{batch.id}")
+    except Exception as celery_err:
+        logger.warning(f"[Batch Resume Fallback] Celery queue unavailable ({celery_err}), launching async thread...")
+        import threading
+        threading.Thread(target=execute_batch_processing, args=(batch.id,), kwargs={"is_resume": True}, daemon=True).start()
+
+    messages.success(request, f"Resumed processing for Batch #{batch.id}.")
     return redirect("batch_monitoring")

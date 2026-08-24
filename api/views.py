@@ -1,4 +1,4 @@
-from django.db.models import Avg
+from django.db.models import Avg, Count, Q
 from django.shortcuts import get_object_or_404
 from drf_spectacular.utils import extend_schema
 from rest_framework import generics
@@ -47,21 +47,22 @@ class StatsAPIView(APIView):
     """
     @extend_schema(responses={200: StatsResponseSerializer})
     def get(self, request):
-        total = Product.objects.count()
-        completed = Product.objects.filter(status__in=["COMPLETED", "APPROVED"]).count()
-        failed = Product.objects.filter(status="FAILED").count()
-        review = Product.objects.filter(status="REVIEW").count()
-        pending = Product.objects.filter(status__in=["PENDING", "RETRYING", "PROCESSING"]).count()
-
+        stats = Product.objects.aggregate(
+            total=Count("id"),
+            completed=Count("id", filter=Q(status__in=["COMPLETED", "APPROVED"])),
+            failed=Count("id", filter=Q(status="FAILED")),
+            review=Count("id", filter=Q(status="REVIEW")),
+            pending=Count("id", filter=Q(status__in=["PENDING", "RETRYING", "PROCESSING"])),
+        )
         avg_conf = ClassificationResult.objects.aggregate(avg=Avg("confidence_score"))["avg"]
         avg_confidence = round(avg_conf, 2) if avg_conf is not None else 0.0
 
         return Response({
-            "total_products": total,
-            "completed": completed,
-            "failed": failed,
-            "review": review,
-            "pending": pending,
+            "total_products": stats["total"] or 0,
+            "completed": stats["completed"] or 0,
+            "failed": stats["failed"] or 0,
+            "review": stats["review"] or 0,
+            "pending": stats["pending"] or 0,
             "avg_confidence": avg_confidence,
         })
 
