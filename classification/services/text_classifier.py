@@ -13,8 +13,8 @@ try:
 except Exception:
     client = None
 
-# Using gemini-2.5-flash as it is the recommended default for fast text tasks
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+# Default to active gemini-3.6-flash model
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 
 def analyze_product_text(title, description=None, materials=None, category_hint=None, sub_category_hint=None):
@@ -62,12 +62,19 @@ def analyze_product_text(title, description=None, materials=None, category_hint=
                 )
             )
             response_text = response.text.strip()
+            if response_text.startswith("```"):
+                lines = response_text.splitlines()
+                if lines[0].startswith("```"):
+                    lines = lines[1:]
+                if lines and lines[-1].startswith("```"):
+                    lines = lines[:-1]
+                response_text = "\n".join(lines).strip()
 
             return json.loads(response_text)
 
         except Exception as e:
             err_str = str(e).lower()
-            if attempt < 2 and ("429" in err_str or "quota" in err_str or "timeout" in err_str):
+            if attempt < 2 and ("429" in err_str or "quota" in err_str or "timeout" in err_str or "rate" in err_str):
                 time.sleep(2.0 * (attempt + 1))
                 continue
             return _fallback_result(category_hint, sub_category_hint, materials, str(e))

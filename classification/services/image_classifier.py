@@ -20,8 +20,8 @@ try:
 except Exception:
     client = None
 
-# Using gemini-2.5-flash as it is the recommended default for multimodal tasks
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+# Default to active gemini-3.6-flash model
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 
 def load_image(image_source):
@@ -79,6 +79,13 @@ def analyze_product_image(image_path):
             )
         )
         response_text = response.text.strip()
+        if response_text.startswith("```"):
+            lines = response_text.splitlines()
+            if lines[0].startswith("```"):
+                lines = lines[1:]
+            if lines and lines[-1].startswith("```"):
+                lines = lines[:-1]
+            response_text = "\n".join(lines).strip()
 
         return json.loads(response_text)
 

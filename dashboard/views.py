@@ -17,6 +17,7 @@ from classification.models import (
     Batch
 )
 from classification.tasks import process_batch
+from classification.tasks.process_batch import execute_batch_processing
 
 
 def _clean_str(val):
@@ -180,19 +181,16 @@ def upload_products(request):
 
             logger.info(f"[Batch Creation] Created Batch #{batch.id} '{batch.name}' with {len(created_ids)} products.")
 
-            # Dispatch Celery background task — no thread fallback (it breaks bound tasks)
+            # Dispatch Celery background task with thread fallback
             try:
                 process_batch.delay(batch.id, product_ids=created_ids)
                 logger.info(f"[Task Dispatch] Dispatched Celery task for Batch #{batch.id}")
             except Exception as celery_err:
-                logger.error(f"[Task Dispatch FAILED] Celery broker unavailable for Batch #{batch.id}: {celery_err}")
-                # Mark batch as failed so it doesn't appear stuck
-                batch.status = "FAILED"
-                batch.save(update_fields=["status"])
-                messages.error(request, f"File imported but classification could not start: broker unavailable. Please retry.")
-                return redirect("batch_monitoring")
+                logger.warning(f"[Task Fallback] Celery queue unavailable ({celery_err}), launching async processing thread for Batch #{batch.id}...")
+                import threading
+                threading.Thread(target=execute_batch_processing, args=(batch.id, created_ids), daemon=True).start()
 
-            messages.success(request, f"Successfully imported {len(created_ids)} products. Batch #{batch.id} queued.")
+            messages.success(request, f"Successfully imported {len(created_ids)} products. Batch #{batch.id} queued for classification.")
             return redirect("batch_monitoring")
 
         except Exception as e:
