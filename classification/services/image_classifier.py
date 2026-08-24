@@ -4,7 +4,8 @@ import os
 from io import BytesIO
 from urllib.parse import urlparse
 
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from dotenv import load_dotenv
 from PIL import Image
 import requests
@@ -12,14 +13,15 @@ import requests
 # Load environment variables
 load_dotenv()
 
-# Step 6: Configure Gemini
-genai.configure(
-    api_key=os.getenv("GEMINI_API_KEY")
-)
+# Initialize the new SDK client
+# Note: It automatically picks up GEMINI_API_KEY from environment
+try:
+    client = genai.Client()
+except Exception:
+    client = None
 
-# Step 7: Load Model (defaults to gemini-3.6-flash or env GEMINI_MODEL)
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
-model = genai.GenerativeModel(MODEL_NAME)
+# Using gemini-2.5-flash as it is the recommended default for multimodal tasks
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 
 def load_image(image_source):
@@ -46,12 +48,14 @@ def load_image(image_source):
     raise ValueError(f"Unsupported image source: {type(image_source)}")
 
 
-# Step 8: Create Analyzer Function
 def analyze_product_image(image_path):
     """
     Receive image (path or URL), analyze image with Gemini, and return attributes dictionary.
     """
     try:
+        if not client:
+            raise RuntimeError("Gemini SDK not initialized (Missing API Key?)")
+            
         img = load_image(image_path)
 
         prompt = (
@@ -66,17 +70,15 @@ def analyze_product_image(image_path):
             "IMPORTANT: Return ONLY a valid JSON object. Do not include markdown code block formatting (no ```json or ```)."
         )
 
-        response = model.generate_content([prompt, img])
+        response = client.models.generate_content(
+            model=MODEL_NAME,
+            contents=[prompt, img],
+            config=types.GenerateContentConfig(
+                temperature=0.1,
+                response_mime_type="application/json"
+            )
+        )
         response_text = response.text.strip()
-
-        # Clean JSON markdown if wrapped in ```json ... ```
-        if response_text.startswith("```"):
-            lines = response_text.splitlines()
-            if lines[0].startswith("```"):
-                lines = lines[1:]
-            if lines and lines[-1].startswith("```"):
-                lines = lines[:-1]
-            response_text = "\n".join(lines).strip()
 
         return json.loads(response_text)
 
@@ -90,3 +92,4 @@ def analyze_product_image(image_path):
             "style": None,
             "key_features": []
         }
+

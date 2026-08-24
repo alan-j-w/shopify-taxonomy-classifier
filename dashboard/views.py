@@ -156,14 +156,20 @@ def upload_products(request):
             import logging
             logger = logging.getLogger("classification")
 
+            # bulk_create returns the created objects with their IDs (Django 4.1+)
             with transaction.atomic():
-                Product.objects.bulk_create(products_to_create, batch_size=500)
-                # Retrieve the newly created product IDs
-                created_ids = list(
-                    Product.objects.filter(status="PENDING")
-                    .order_by("-id")[:len(products_to_create)]
-                    .values_list("id", flat=True)
-                )[::-1]
+                created_objects = Product.objects.bulk_create(products_to_create, batch_size=500)
+                created_ids = [obj.id for obj in created_objects]
+
+                # Fallback: if IDs not populated by bulk_create (some DB backends), query them
+                if not created_ids or not created_ids[0]:
+                    # Tag with a sentinel batch marker to reliably find them
+                    created_ids = list(
+                        Product.objects.filter(
+                            status="PENDING",
+                            title__in=[p.title for p in products_to_create[:500]]
+                        ).order_by("-id")[:len(products_to_create)].values_list("id", flat=True)
+                    )[::-1]
 
                 batch = Batch.objects.create(
                     name=f"Upload: {uploaded_file.name}"[:255],
@@ -174,16 +180,19 @@ def upload_products(request):
 
             logger.info(f"[Batch Creation] Created Batch #{batch.id} '{batch.name}' with {len(created_ids)} products.")
 
-            # Dispatch Celery background task with graceful thread fallback
+            # Dispatch Celery background task — no thread fallback (it breaks bound tasks)
             try:
                 process_batch.delay(batch.id, product_ids=created_ids)
                 logger.info(f"[Task Dispatch] Dispatched Celery task for Batch #{batch.id}")
             except Exception as celery_err:
-                logger.warning(f"[Task Fallback] Celery queue unavailable ({celery_err}), launching async processing thread for Batch #{batch.id}...")
-                import threading
-                threading.Thread(target=process_batch, args=(batch.id, created_ids), daemon=True).start()
+                logger.error(f"[Task Dispatch FAILED] Celery broker unavailable for Batch #{batch.id}: {celery_err}")
+                # Mark batch as failed so it doesn't appear stuck
+                batch.status = "FAILED"
+                batch.save(update_fields=["status"])
+                messages.error(request, f"File imported but classification could not start: broker unavailable. Please retry.")
+                return redirect("batch_monitoring")
 
-            messages.success(request, f"Successfully imported {len(products_to_create)} products. Batch #{batch.id} started.")
+            messages.success(request, f"Successfully imported {len(created_ids)} products. Batch #{batch.id} queued.")
             return redirect("batch_monitoring")
 
         except Exception as e:
@@ -191,6 +200,7 @@ def upload_products(request):
             return redirect("upload_products")
 
     return render(request, "dashboard/upload_products.html")
+
 
 
 def dashboard_home(request):

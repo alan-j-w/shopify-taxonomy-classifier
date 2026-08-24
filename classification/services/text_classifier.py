@@ -1,16 +1,20 @@
 import json
 import os
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from dotenv import load_dotenv
 
 load_dotenv()
 
-genai.configure(
-    api_key=os.getenv("GEMINI_API_KEY")
-)
+# Initialize the new SDK client
+# Note: It automatically picks up GEMINI_API_KEY from environment
+try:
+    client = genai.Client()
+except Exception:
+    client = None
 
-MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
-model = genai.GenerativeModel(MODEL_NAME)
+# Using gemini-2.5-flash as it is the recommended default for fast text tasks
+MODEL_NAME = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 
 def analyze_product_text(title, description=None, materials=None, category_hint=None, sub_category_hint=None):
@@ -43,32 +47,41 @@ def analyze_product_text(title, description=None, materials=None, category_hint=
     )
 
     import time
+    
+    if not client:
+        return _fallback_result(category_hint, sub_category_hint, materials, "Gemini SDK not initialized (Missing API Key?)")
 
-    for attempt in range(2):
+    for attempt in range(3):
         try:
-            response = model.generate_content(prompt)
+            response = client.models.generate_content(
+                model=MODEL_NAME,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=0.1,
+                    response_mime_type="application/json"
+                )
+            )
             response_text = response.text.strip()
-
-            if response_text.startswith("```"):
-                lines = response_text.splitlines()
-                if lines[0].startswith("```"):
-                    lines = lines[1:]
-                if lines and lines[-1].startswith("```"):
-                    lines = lines[:-1]
-                response_text = "\n".join(lines).strip()
 
             return json.loads(response_text)
 
         except Exception as e:
-            if attempt == 0 and "429" in str(e):
-                time.sleep(2.0)
+            err_str = str(e).lower()
+            if attempt < 2 and ("429" in err_str or "quota" in err_str or "timeout" in err_str):
+                time.sleep(2.0 * (attempt + 1))
                 continue
-            return {
-                "error": str(e),
-                "predicted_category": category_hint or "General Merchandise",
-                "product_type": sub_category_hint or "General Product",
-                "color": None,
-                "materials": materials,
-                "style": None,
-                "key_attributes": {}
-            }
+            return _fallback_result(category_hint, sub_category_hint, materials, str(e))
+            
+    return _fallback_result(category_hint, sub_category_hint, materials, "Max retries exceeded")
+
+
+def _fallback_result(category_hint, sub_category_hint, materials, error_msg):
+    return {
+        "error": error_msg,
+        "predicted_category": category_hint or "General Merchandise",
+        "product_type": sub_category_hint or "General Product",
+        "color": None,
+        "materials": materials,
+        "style": None,
+        "key_attributes": {}
+    }
