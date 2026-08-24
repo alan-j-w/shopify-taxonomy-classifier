@@ -9,36 +9,36 @@ logger = logging.getLogger("classification")
 
 
 @shared_task(bind=True)
-def process_batch(self, batch_id, async_products=False):
+def process_batch(self, batch_id, product_ids=None, async_products=False):
     """
     Process products for a given Batch.
 
-    Takes a snapshot of all PENDING/FAILED products at the time the batch
-    starts. Only those products are tracked against this batch's counters,
-    preventing double-counting across concurrent or sequential batches.
-
-    Features:
-    - Error Isolation: Failure on one product does not halt the batch.
-    - Progress Tracking: Updates completed/failed/pending counts per iteration.
-    - Resume Capability: Processes PENDING and FAILED/RETRYING products.
-    - Async delegation: Dispatches individual jobs to Celery if async_products=True.
+    If product_ids is supplied, processes only those specific products.
+    Otherwise, snapshots pending products.
     """
     try:
         batch = Batch.objects.get(id=batch_id)
     except Batch.DoesNotExist:
-        logger.error(f"Batch #{batch_id} does not exist.")
+        logger.error(f"[Batch Ingestion] Batch #{batch_id} does not exist.")
         return None
 
-    # Snapshot the PENDING products at this moment.
-    # Use a list of IDs so the count is fixed and we only process this batch's work.
-    pending_ids = list(
-        Product.objects.filter(status__in=["PENDING", "FAILED", "RETRYING"])
-        .order_by("id")
-        .values_list("id", flat=True)
-    )
+    logger.info(f"[Task Receipt] Received Batch #{batch_id} (target products: {len(product_ids) if product_ids else 'ALL PENDING'})")
+
+    if product_ids:
+        pending_ids = list(
+            Product.objects.filter(id__in=product_ids, status__in=["PENDING", "FAILED", "RETRYING"])
+            .order_by("id")
+            .values_list("id", flat=True)
+        )
+    else:
+        pending_ids = list(
+            Product.objects.filter(status__in=["PENDING", "FAILED", "RETRYING"])
+            .order_by("id")
+            .values_list("id", flat=True)
+        )
+
     snapshot_count = len(pending_ids)
 
-    # Set total_products from the snapshot (override any incorrect pre-set value)
     batch.total_products = snapshot_count
     batch.status = "PROCESSING"
     batch.pending_products = snapshot_count
@@ -46,7 +46,7 @@ def process_batch(self, batch_id, async_products=False):
     batch.failed_products = 0
     batch.save(update_fields=["status", "total_products", "pending_products", "completed_products", "failed_products"])
 
-    logger.info(f"Starting batch #{batch_id} with {snapshot_count} items.")
+    logger.info(f"[Batch Start] Batch #{batch_id} started processing {snapshot_count} products.")
 
     if async_products:
         for product_id in pending_ids:

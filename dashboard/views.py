@@ -140,17 +140,35 @@ def upload_products(request):
                 for item in rows_data
             ]
 
+            import logging
+            logger = logging.getLogger("classification")
+
             with transaction.atomic():
                 Product.objects.bulk_create(products_to_create, batch_size=500)
+                # Retrieve the newly created product IDs
+                created_ids = list(
+                    Product.objects.filter(status="PENDING")
+                    .order_by("-id")[:len(products_to_create)]
+                    .values_list("id", flat=True)
+                )[::-1]
+
                 batch = Batch.objects.create(
                     name=f"Upload: {uploaded_file.name}"[:255],
-                    total_products=len(products_to_create),
-                    pending_products=len(products_to_create),
+                    total_products=len(created_ids),
+                    pending_products=len(created_ids),
                     status="PROCESSING",
                 )
 
-            # Dispatch Celery background classification
-            process_batch.delay(batch.id)
+            logger.info(f"[Batch Creation] Created Batch #{batch.id} '{batch.name}' with {len(created_ids)} products.")
+
+            # Dispatch Celery background task with graceful thread fallback
+            try:
+                process_batch.delay(batch.id, product_ids=created_ids)
+                logger.info(f"[Task Dispatch] Dispatched Celery task for Batch #{batch.id}")
+            except Exception as celery_err:
+                logger.warning(f"[Task Fallback] Celery queue unavailable ({celery_err}), launching async processing thread for Batch #{batch.id}...")
+                import threading
+                threading.Thread(target=process_batch, args=(batch.id, created_ids), daemon=True).start()
 
             messages.success(request, f"Successfully imported {len(products_to_create)} products. Batch #{batch.id} started.")
             return redirect("batch_monitoring")
