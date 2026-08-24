@@ -365,3 +365,16 @@ def reject_product(request, product_id):
     product.status = "FAILED"
     product.save(update_fields=["status"])
     return redirect("review_queue")
+
+
+@require_POST
+def delete_batch(request, batch_id):
+    batch = get_object_or_404(Batch, id=batch_id)
+    if batch.status == "PROCESSING":
+        messages.warning(request, f"Cannot delete Batch #{batch.id} while it is actively processing.")
+        return redirect("batch_monitoring")
+
+    batch_name = batch.name or f"Batch #{batch.id}"
+    batch.delete()
+    messages.success(request, f"Successfully deleted {batch_name}.")
+    return redirect("batch_monitoring")
